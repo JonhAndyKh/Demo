@@ -1,0 +1,138 @@
+openapi: 3.1.0
+info:
+  # Do not change the title, if the title changes, the import paths will be broken
+  title: Api
+  version: 0.1.0
+  description: API specification
+servers:
+  - url: /api
+    description: Base API path
+tags:
+  - name: health
+    description: Health operations
+  - name: payments
+    description: Coffee shop PayWay checkout and payment status
+paths:
+  /healthz:
+    get:
+      operationId: healthCheck
+      tags: [health]
+      summary: Health check
+      description: Returns server health status
+      responses:
+        "200":
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+  /payway/checkout:
+    post:
+      operationId: startCoffeePaywayCheckout
+      tags: [payments]
+      summary: Create a PayWay payment QR for the fixed $1.00 coffee order
+      description: Creates a live PayWay transaction and returns its QR payload. The amount is fixed on the server.
+      responses:
+        "201":
+          description: Payment QR created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PaywayCheckout"
+        "400":
+          description: Invalid same-origin checkout request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "502":
+          description: PayWay could not create the transaction
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "503":
+          description: PayWay merchant payment link is not configured
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+  /payway/status:
+    post:
+      operationId: checkPaywayPayment
+      tags: [payments]
+      summary: Check a PayWay transaction status
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/PaywayStatusInput"
+      responses:
+        "200":
+          description: Normalized PayWay transaction status
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PaywayPaymentStatus"
+        "400":
+          description: Invalid transaction reference
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "502":
+          description: PayWay status service is unavailable
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+components:
+  schemas:
+    HealthStatus:
+      type: object
+      properties:
+        status:
+          type: string
+      required:
+        - status
+    PaywayCheckout:
+      type: object
+      properties:
+        success:
+          type: boolean
+        tran_id:
+          type: string
+        qr_string:
+          type: string
+          minLength: 1
+          maxLength: 4096
+        amount:
+          type: string
+      required: [success, tran_id, qr_string, amount]
+    PaywayStatusInput:
+      type: object
+      properties:
+        tran_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+      required: [tran_id]
+    PaywayPaymentStatus:
+      type: object
+      properties:
+        tran_id:
+          type: string
+        status:
+          type: string
+          enum: [approved, pending, declined, cancelled, expired, unknown]
+        message:
+          type: string
+      required: [tran_id, status, message]
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+      required: [error]
+

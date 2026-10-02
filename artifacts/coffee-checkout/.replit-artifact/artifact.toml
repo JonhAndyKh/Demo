@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Coffee Shop Checkout"
+description = "A one-item coffee shop with fixed $1.00 PayWay checkout, provider-hosted payment, and payment confirmation."
+version = "1.0.0"
+id = "artifacts/coffee-checkout"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19620
+
+[services.development]
+run = "pnpm --filter @workspace/coffee-checkout run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/coffee-checkout", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/coffee-checkout/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19620"
+BASE_PATH = "/"
