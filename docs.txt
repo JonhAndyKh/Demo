@@ -1,0 +1,2838 @@
+getBot()
+├getBot().collect_range
+├getBot().auto_leave_on_admin
+├getBot().home_world
+├getBot():moveTo()
+├getBot():active()
+├getBot():setPack()
+├getBot():isResting()
+├getBot().move_x
+├getBot().anti_toxic
+├getBot().auto_set_pos
+│├getBot().auto_set_pos.warp_delay
+│├getBot().auto_set_pos.enabled
+│├getBot().auto_set_pos.move_delay
+│└getBot().auto_set_pos.world
+├getBot():getCaptcha()
+├getBot().object_collect_delay
+├getBot().move_y
+├getBot().rest_time
+├getBot().warp_count
+├getBot().birth_storage
+├getBot().auto_alien_scanner
+├getBot().disconnect_on_rest
+├getBot().gem_count
+├getBot().level
+├getBot().auto_message
+│├getBot().auto_message.interval
+│├getBot().auto_message.enabled
+│├getBot().auto_message:start()
+│├getBot().auto_message:clear()
+│├getBot().auto_message:save()
+│├getBot().auto_message:load()
+│├getBot().auto_message.growid_count
+│├getBot().auto_message.messaging
+│├getBot().auto_message.uid_count
+│├getBot().auto_message.ignore_admin
+│├getBot().auto_message.message
+│├getBot().auto_message.anti_exit
+│├getBot().auto_message.victim_uid
+│├getBot().auto_message.type
+│├getBot().auto_message.auto_sb
+│└getBot().auto_message.loop_mode
+├getBot():collect()
+├getBot():sendRaw()
+├getBot().auto_consume
+├getBot().selected
+├getBot():findPath()
+├getBot().auto_clear
+│├getBot().auto_clear.keep_lock
+│├getBot().auto_clear.item_storage
+│├getBot().auto_clear.no_number
+│├getBot().auto_clear.name_length
+│├getBot().auto_clear.keep_jammer
+│├getBot().auto_clear.seed_storage
+│├getBot().auto_clear.output_path
+│└getBot().auto_clear.enabled
+├getBot().wear_storage
+├getBot().index
+├getBot().auto_follow
+├getBot():collectByID()
+├getBot().auto_fossil
+│├getBot().auto_fossil.fossil_storage
+│├getBot().auto_fossil.use_rock
+│├getBot().auto_fossil.interval
+│├getBot().auto_fossil.enabled
+│├getBot().auto_fossil.tool_storage
+│└getBot().auto_fossil.loop_mode
+├getBot().auto_wear
+├getBot().auto_combine
+│├getBot().auto_combine:setIngredient()
+│├getBot().auto_combine.output_world
+│├getBot().auto_combine.ingredient_storage
+│├getBot().auto_combine.enabled
+│├getBot().auto_combine.output_id
+│└getBot().auto_combine.world
+├getBot().max_reconnect
+├getBot().legit_mode
+├getBot().is_account_secured
+├getBot().auto_startopia
+│├getBot().auto_startopia.auto_spice
+│├getBot().auto_startopia.secondary_storage
+│├getBot().auto_startopia.enabled
+│├getBot().auto_startopia.primary_storage
+│├getBot().auto_startopia.blast
+│├getBot().auto_startopia.reward_storage
+│├getBot().auto_startopia.sector
+│├getBot().auto_startopia.auto_gemonade
+│└getBot().auto_startopia.mode
+├getBot():leaveWorld()
+├getBot():updateBot()
+├getBot().custom_status
+├getBot().consume_id
+├getBot().auto_collect
+├getBot().reconnect_multiplier
+├getBot().auto_npc
+│├getBot().auto_npc.item_storage
+│├getBot().auto_npc.sucker_limit
+│├getBot().auto_npc.collect_mode
+│├getBot().auto_npc.auto_spawner
+│├getBot().auto_npc.reward_storage
+│├getBot().auto_npc.spawner_limit
+│├getBot().auto_npc.enabled
+│├getBot().auto_npc.auto_sucker
+│└getBot().auto_npc.main_world
+├getBot().move_range
+├getBot().auto_rest_mode
+├getBot():warp()
+├getBot().x
+├getBot().y
+├getBot():drop()
+├getBot():stopRole()
+├getBot():place()
+├getBot().maximum_ping
+├getBot():say()
+├getBot():setDirection()
+├getBot().auto_accept
+├getBot().rotation
+│├getBot().rotation.auto_rest
+│├getBot().rotation.auto_leave_on_player
+│├getBot().rotation.auto_fossil
+│├getBot().rotation.harvest_roots
+│├getBot().rotation.pnb_in_home
+│├getBot().rotation.auto_exchange
+│├getBot().rotation.clear_objects
+│├getBot().rotation.visit_random_worlds
+│├getBot().rotation.pnb_world
+│├getBot().rotation.break_y
+│├getBot().rotation.auto_jammer
+│├getBot().rotation.suppress_seed_storage
+│├getBot().rotation.ignore_plant
+│├getBot().rotation.seed_drop_amount
+│├getBot().rotation.enabled
+│├getBot().rotation.harvest_until_level
+│├getBot().rotation.primary
+│├getBot().rotation.custom_position
+│├getBot().rotation.secondary
+│├getBot().rotation.tiles
+│├getBot().rotation.break_x
+│├getBot().rotation.auto_fill
+│├getBot().rotation.one_by_one
+│├getBot().rotation.status
+│└getBot().rotation.suppress_pack_storage
+├getBot().auto_mooncake_magnificence
+├getBot():moveUp()
+├getBot().gem_limit
+├getBot().history
+│├getBot().history:erase()
+│├getBot().history:at()
+│├getBot().history:set()
+│├getBot().history:empty()
+│├getBot().history:add()
+│├getBot().history:find()
+│├getBot().history:size()
+│├getBot().history:insert()
+│├getBot().history:index_of()
+│├getBot().history:pairs()
+│├getBot().history:get()
+│├getBot().history:next()
+│└getBot().history:clear()
+├getBot().wear_id
+│├getBot().wear_id:erase()
+│├getBot().wear_id:at()
+│├getBot().wear_id:set()
+│├getBot().wear_id:empty()
+│├getBot().wear_id:add()
+│├getBot().wear_id:find()
+│├getBot().wear_id:size()
+│├getBot().wear_id:insert()
+│├getBot().wear_id:index_of()
+│├getBot().wear_id:pairs()
+│├getBot().wear_id:get()
+│├getBot().wear_id:next()
+│└getBot().wear_id:clear()
+├getBot():moveDown()
+├getBot():updateProxy()
+├getBot().collect_path_check
+├getBot():wrenchPlayer()
+├getBot().hide_gems
+├getBot():activate()
+├getBot().auto_crime
+│├getBot().auto_crime.auto_bbq
+│├getBot().auto_crime.auto_wave
+│├getBot().auto_crime.tool_storage
+│├getBot().auto_crime.world
+│├getBot().auto_crime.reward_storage
+│├getBot().auto_crime.enabled
+│└getBot().auto_crime:setActive()
+├getBot().auto_build
+│├getBot().auto_build.build_water
+│├getBot().auto_build.soil_mode
+│├getBot().auto_build.insert_rotation
+│├getBot().auto_build.item_storage
+│├getBot().auto_build.enabled
+│├getBot().auto_build.ignore_lava
+│├getBot().auto_build.name_length
+│├getBot().auto_build.door_id
+│├getBot().auto_build.entrance_id
+│├getBot().auto_build.custom_id
+│├getBot().auto_build.output_path
+│├getBot().auto_build.soil_storage
+│├getBot().auto_build.use_fire_house
+│├getBot().auto_build.build_plat
+│├getBot().auto_build.platform_id
+│└getBot().auto_build.ignore_cave
+├getBot().auto_tutorial
+│├getBot().auto_tutorial.set_high_level
+│├getBot().auto_tutorial.enabled
+│├getBot().auto_tutorial.set_random_profile
+│├getBot().auto_tutorial.set_random_skin
+│├getBot().auto_tutorial.set_as_home
+│├getBot().auto_tutorial.step
+│├getBot().auto_tutorial.message
+│├getBot().auto_tutorial.world
+│├getBot().auto_tutorial.clear_inventory
+│├getBot().auto_tutorial.detect_tutorial
+│└getBot().auto_tutorial.auto_quest
+├getBot().consume_interval
+├getBot().reconnect_interval
+├getBot().auto_geiger
+│├getBot().auto_geiger:removeWorld()
+│├getBot().auto_geiger:addStorage()
+│├getBot().auto_geiger:addWorld()
+│├getBot().auto_geiger.insta_path
+│├getBot().auto_geiger:spread()
+│├getBot().auto_geiger.use_chocolate
+│├getBot().auto_geiger:removeStorage()
+│└getBot().auto_geiger.enabled
+├getBot().auto_skin
+│├getBot().auto_skin.enabled
+│└getBot().auto_skin.interval
+├getBot():setInterval()
+├getBot().collect_all
+├getBot():getMaladyDuration()
+├getBot().rest_interval
+├getBot():stopScript()
+├getBot():updateTokenBot()
+├getBot():isInTutorial()
+├getBot():disconnect()
+├getBot().auto_trash
+├getBot():getRoleMission()
+├getBot():finishRole()
+├getBot().auto_plant
+│├getBot().auto_plant.storage
+│├getBot().auto_plant:remove()
+│├getBot().auto_plant:add()
+│├getBot().auto_plant.enabled
+│└getBot().auto_plant.loop
+├getBot():sendPacket()
+├getBot().auto_leave_on_mod
+├getBot():setPlatform()
+├getBot():setRid()
+├getBot():setMac()
+├getBot():getSignal()
+├getBot():getWorld()
+├getBot():getPing()
+├getBot().ignore_essences
+├getBot():unwear()
+├getBot():isSupporter()
+├getBot():updateUbiBot()
+├getBot().auto_clothes
+├getBot().auto_zombie
+│├getBot().auto_zombie.infect_mode
+│├getBot().auto_zombie.enabled
+│├getBot().auto_zombie.zombie_world
+│├getBot().auto_zombie.punch_mode
+│├getBot().auto_zombie.reward_storage
+│├getBot().auto_zombie.cell_limit
+│├getBot().auto_zombie.gvirus_storage
+│└getBot().auto_zombie.punch_door
+├getBot():trash()
+├getBot():isRunningScript()
+├getBot():isInTile()
+├getBot():findOutput()
+├getBot():isInWorld()
+├getBot():moveLeft()
+├getBot():collectObject()
+├getBot():getPath()
+├getBot().google_status
+├getBot():enter()
+├getBot():getLogin()
+├getBot():startRole()
+├getBot():isInArea()
+├getBot():wrench()
+├getBot():hit()
+├getBot().auto_stop
+├getBot().auto_farm
+│├getBot().auto_farm.enabled
+│├getBot().auto_farm.auto_break
+│├getBot().auto_farm.mag_x
+│├getBot().auto_farm.id
+│├getBot().auto_farm.seed_storage
+│├getBot().auto_farm:setActive()
+│├getBot().auto_farm.block_storage
+│├getBot().auto_farm.auto_retrieve
+│├getBot().auto_farm.mag_y
+│├getBot().auto_farm.auto_place
+│└getBot().auto_farm.auto_remote
+├getBot():getInterval()
+├getBot().random_reconnect
+├getBot().auto_expand_inventory
+├getBot():retrieve()
+├getBot().ignore_gems
+├getBot():setSkin()
+├getBot().auto_disconnect
+├getBot():getActiveTime()
+├getBot().auto_reconnect
+├getBot():setCountry()
+├getBot():hasToken()
+├getBot():fastTrash()
+├getBot().auto_ban
+├getBot():updateToken()
+├getBot():fastDrop()
+├getBot():connect()
+├getBot().auto_harvest
+│├getBot().auto_harvest.recycle
+│├getBot().auto_harvest.storage
+│├getBot().auto_harvest.useFuel
+│├getBot().auto_harvest.enabled
+│├getBot().auto_harvest:add()
+│├getBot().auto_harvest:remove()
+│└getBot().auto_harvest.loop
+├getBot().malady
+├getBot().auto_birth
+├getBot().name
+├getBot().auto_carnival
+│├getBot().auto_carnival.auto_trash
+│├getBot().auto_carnival.ticket_storage
+│├getBot().auto_carnival.selected_game
+│├getBot().auto_carnival.enabled
+│├getBot().auto_carnival.auto_buy
+│└getBot().auto_carnival.reward_storage
+├getBot().obtained_pack_count
+├getBot().anti_fire
+├getBot().status
+├getBot():runScript()
+├getBot():setBubble()
+├getBot().auto_fish
+│├getBot().auto_fish:getRod()
+│├getBot().auto_fish.enabled
+│├getBot().auto_fish.x
+│├getBot().auto_fish.auto_trawler
+│├getBot().auto_fish.y
+│├getBot().auto_fish.world
+│├getBot().auto_fish.reward_storage
+│├getBot().auto_fish.auto_trash
+│├getBot().auto_fish.item_storage
+│├getBot().auto_fish:setBait()
+│├getBot().auto_fish:getBait()
+│├getBot().auto_fish:setRod()
+│├getBot().auto_fish.auto_gemonade
+│└getBot().auto_fish.auto_drill
+├getBot().pearl_count
+├getBot():respawn()
+├getBot():getConsole()
+├getBot():getLog()
+├getBot().dynamic_delay
+├getBot().auto_cook
+│├getBot().auto_cook:setTemperature()
+│├getBot().auto_cook:setFood()
+│├getBot().auto_cook.interval
+│├getBot().auto_cook:setActive()
+│├getBot().auto_cook.y
+│├getBot().auto_cook.world
+│├getBot().auto_cook:stop()
+│├getBot().auto_cook.ingredient_storage
+│├getBot().auto_cook.food_storage
+│├getBot().auto_cook:start()
+│├getBot().auto_cook.is_cooking
+│└getBot().auto_cook.x
+├getBot().bypass_logon
+├getBot():use()
+├getBot():wear()
+├getBot().min_reconnect
+├getBot().auto_spam
+│├getBot().auto_spam.random_interval
+│├getBot().auto_spam.randomizer
+│├getBot().auto_spam.enabled
+│├getBot().auto_spam.auto_interval
+│├getBot().auto_spam.show_emote
+│├getBot().auto_spam.messages
+│├├getBot().auto_spam.messages:erase()
+│├├getBot().auto_spam.messages:at()
+│├├getBot().auto_spam.messages:set()
+│├├getBot().auto_spam.messages:empty()
+│├├getBot().auto_spam.messages:add()
+│├├getBot().auto_spam.messages:find()
+│├├getBot().auto_spam.messages:size()
+│├├getBot().auto_spam.messages:insert()
+│├├getBot().auto_spam.messages:index_of()
+│├├getBot().auto_spam.messages:pairs()
+│├├getBot().auto_spam.messages:get()
+│├├getBot().auto_spam.messages:next()
+│└└getBot().auto_spam.messages:clear()
+│├getBot().auto_spam.interval
+│└getBot().auto_spam.use_color
+├getBot():updateCustomBot()
+├getBot().auto_event
+│├getBot().auto_event.storage
+│└getBot().auto_event.enabled
+├getBot():buy()
+├getBot():getPlaytime()
+├getBot().obtained_gem_count
+├getBot():getInventory()
+├getBot().auto_malady
+│├getBot().auto_malady:addHospital()
+│├getBot().auto_malady.auto_surgery_station
+│├getBot().auto_malady.enabled
+│├getBot().auto_malady.auto_chicken_feet
+│├getBot().auto_malady.auto_disconnect
+│├getBot().auto_malady:removeHospital()
+│├getBot().auto_malady.vial
+│├getBot().auto_malady.storage
+│├getBot().auto_malady.disconnect_interval
+│├getBot().auto_malady.auto_grumbleteeth
+│├getBot().auto_malady.auto_refresh
+│├getBot().auto_malady.auto_vial
+│└getBot().auto_malady.use_home
+├getBot():getProxy()
+├getBot().auto_parkour
+│├getBot().auto_parkour:setTicket()
+│├getBot().auto_parkour.enabled
+│├getBot().auto_parkour:setWebhook()
+│├getBot().auto_parkour:setReward()
+│├getBot().auto_parkour.type
+│├getBot().auto_parkour.block
+│└getBot().auto_parkour.limit
+├getBot().leave_world_before_warp
+├getBot().auto_transfer
+│├getBot().auto_transfer.itemid
+│├getBot().auto_transfer.enabled
+│├getBot().auto_transfer.output
+│├getBot().auto_transfer.input
+│├getBot().auto_transfer.per_item
+│├getBot().auto_transfer.restock_vend
+│├getBot().auto_transfer.set_price
+│├getBot().auto_transfer.buy_price
+│├getBot().auto_transfer.auto_vend
+│└getBot().auto_transfer.drop_vertical
+├getBot():moveTile()
+├getBot():moveRight()
+├getBot().auto_synth
+│├getBot().auto_synth.tool_storage
+│├getBot().auto_synth.y
+│├getBot().auto_synth.enabled
+│├getBot().auto_synth.x
+│├getBot().auto_synth.world
+│└getBot().auto_synth.reward_storage
+└getBot():getAge()
+
+HTTP API
+server = HttpServer.new()
+
+server:setLogger(function(request, response)
+  print(string.format("Method: %s, Path: %s, Status: %i", request.method, request.path, response.status))
+end)
+
+server:get("/bot/get", function(request, response)
+  ...
+end)
+
+server:post("/bot/remove", function(request, response)
+  is_valid_key = request:getParam("secret") == "MySecretKey";
+  if is_valid_key then
+    name = request:getParam("name")
+    removeBot(name)
+    response:setContent("You have been removed bot "..name.." successfully.", "text/plain")
+  else
+    response:setContent("Invalid Key.", "text/plain")
+  end
+end)
+
+server:listen("0.0.0.0", 80)
+
+-- HttpServer
+server = HttpServer.new()
+server:setLogger(function(request, response))
+server:get(path, function(request, response))
+server:post(path, function(request, response))
+server:put(path, function(request, response))
+server:delete(path, function(request, response))
+server:patch(path, function(request, response))
+server:listen("ip", port)
+
+-- HttpRequest
+request.version
+request.path
+request.body
+request.method
+request.headers
+request.params
+request.files
+request:getHeader(key)
+request:getParam(key)
+
+-- HttpResponse
+response.version
+response.status
+response.body
+response.headers
+response:setContent(content, content_type)
+
+MessageBox
+messageBox = MessageBox.new()
+messageBox.title = "Title"
+messageBox.description = "Description"
+messageBox:send()
+
+-- Viewing Rotation Status
+local rotation = getBot().rotation
+if rotation.status == RotationStatus.scanning_world then
+  print("Bot is currently scanning world.")
+end
+
+local instance = getWorldManager()
+
+-- Resetting World Status
+instance:reset_status()
+
+
+-- Viewing Rotation World Informations
+for i, world in pairs(instance.worlds) do
+  print(world.name, world.doorid, world.itemid, world.status, world.selected, world.growth, world.seed_ratio, world.bot, world:ready(), world:getStatus()) -- getStatus returns status as 'String'.
+end
+
+
+-- Viewing Seed Storage Informations
+for i, seed_storage in pairs(instance.seed_storages) do
+  print(seed_storage.name, seed_storage.doorid, seed_storage.itemid, seed_storage.nuked, seed_storage.selected, seed_storage.count)
+end
+
+
+-- Viewing Pack Storage Informations
+for i, pack_storage in pairs(instance.pack_storages) do
+  print(pack_storage.name, pack_storage.doorid, pack_storage.nuked, pack_storage.selected)
+end
+
+
+-- Removing Worlds with specific status
+local nuked_worlds = {}
+for i, world in pairs(instance.worlds) do
+  if world.status == RotationWorldStatus.inaccessible then
+    table.insert(nuked_worlds, world.name)
+  end
+end
+
+for i, nuked_world in pairs(nuked_worlds) do
+  instance:removeFarm(nuked_world)
+end
+
+
+-- Rotation Status Enum
+RotationStatus.scanning_world -- 0
+RotationStatus.harvesting_trees -- 1
+RotationStatus.farming_block -- 2
+RotationStatus.planting_seeds -- 3
+RotationStatus.dropping_seeds -- 4
+RotationStatus.dropping_packs -- 5
+RotationStatus.filling_seeds -- 6
+RotationStatus.harvesting_roots -- 7
+RotationStatus.collecting_fossils -- 8
+RotationStatus.clearing_fires -- 9
+RotationStatus.clearing_toxic_wastes -- 10
+RotationStatus.clearing_objects -- 11
+RotationStatus.reaching_level -- 12
+RotationStatus.clearing_history -- 13
+RotationStatus.creating_home_world -- 14
+
+
+-- Rotation World Status Enum
+RotationWorldStatus.none, -- 0
+RotationWorldStatus.processing, -- 1
+RotationWorldStatus.ready, -- 2
+RotationWorldStatus.invalid, -- 3
+RotationWorldStatus.inaccessible -- 4
+
+-- DIALOG STRUCTURE
+local dialog = getDialog()
+
+dialog.active -- Indicates if dialog is currently active (Boolean)
+dialog:get() -- Returns current Dialog. (As RTVAR Object.)
+dialog:clear() -- Clears current active Dialog.
+dialog:setCustom(DialogBuilder builder) -- Sets custom Dialog.
+dialog:getCustom() -- Gets custom Dialog Result.
+
+-- DIALOGBUILDER STRUCTURE
+local builder = DialogBuilder.new()
+
+builder:clear()
+builder:setTitle("dialog title")
+builder:addButton("button_id", "button_label")
+builder:addCheckbox("checkbox_id", "checkbox_label", true/false)
+builder:addInput("input_id", "input_label", "default_input")
+builder:addLabel("text label")
+
+Added new struct Dialog and DialogBuilder on Executor.
+-- DIALOG STRUCTURE
+local dialog = getDialog()
+
+dialog.active -- Indicates if dialog is currently active (Boolean)
+dialog:get() -- Returns current Dialog. (As RTVAR Object.)
+dialog:clear() -- Clears current active Dialog.
+dialog:setCustom(DialogBuilder builder) -- Sets custom Dialog.
+dialog:getCustom() -- Gets custom Dialog Result.
+
+-- DIALOGBUILDER STRUCTURE
+local builder = DialogBuilder.new()
+
+builder:clear()
+builder:setTitle("dialog title")
+builder:addButton("button_id", "button_label")
+builder:addCheckbox("checkbox_id", "checkbox_label", true/false)
+builder:addInput("input_id", "input_label", "default_input")
+builder:addLabel("text label")
+You can now view current dialog information via Executor. (Alternate way if you don't want to use Events.)
+local dialog = getDialog()
+
+local rtvar = dialog:get()
+if rtvar:size() > 0 then
+  -- Logging Dialog
+  print("[OnDialogRequest]\n" .. rtvar:dump() .. "\n\n")
+
+  -- Handling Dialog
+  if rtvar:get("end_dialog") == "startopia" then
+    for i, var in pairs(rtvar:getParams("add_smalltext") do
+      if removeColor(var.parameters[0]):match("Skill Fail") then
+        print("Bot received Skill Fail while doing Startopia.")
+        if dialog.active then
+          getBot():sendPacket(2, "action|dialog_return....")
+        else
+          dialog:clear()
+        end
+      end
+    end
+  end
+end
+You can now interact with script on runtime. You can manage your script settings by menu.
+local configuration = {
+  ["create_home"] = false,
+  ["x"] = 30,
+  ["y"] = 70
+};
+
+function initialize_dialog()
+  local dialog = DialogBuilder.new()
+
+  dialog:setTitle("Rotation Settings")
+  dialog:addLabel("You can `2customize`` your rotation preferences here")
+  dialog:addCheckbox("create_home", "`5Create Home World while doing Rotation", configuration["create_home"])
+  dialog:addInput("x", "`5Position X", configuration["x"])
+  dialog:addInput("y", "`5Position Y", configuration["y"])
+  dialog:addButton("say_something", "Say Something")
+
+  getDialog():setCustom(dialog)
+end
+
+function update_params()
+  local result = getDialog():getCustom()  
+
+  configuration["create_home"] = result:getBool("create_home")
+  configuration["x"] = result:getInt("x")
+  configuration["y"] = result:getInt("y")
+
+  if result:isClicked("say_something") then
+    getBot():say("Interacting Script with Menu!")
+  end
+end
+
+initialize_dialog()
+
+while true do
+ update_params()
+ sleep(100)
+end
+
+info = getInfo("Item")
+info.id --> ItemInfo::id (number)
+info.name --> ItemInfo::name (string)
+info.type --> ItemInfo::type (string)
+info.flags --> ItemInfo::flags (number)
+info.rarity --> ItemInfo::rarity (number)
+info.growth --> ItemInfo::growth (number)
+info.strength --> ItemInfo::strength (number)
+info.collision --> ItemInfo::collisionType (string)
+info.clothing --> ItemInfo::clothingType (string)
+
+# LUCIFER V1.8 - API DOCUMENTATION [AUTOMATION]
+
+## AutoSpam
+AutoSpam Instance which accessible from bot struct.
+
+#### Properties
+* `enabled` : A boolean indicating whether the auto-spam feature is on or off.
+* `interval` : The time interval between spam messages.
+* `random_interval` : A boolean indicating whether bot should send messages with random interval when auto-spam is active.
+* `show_emote` : A boolean indicating whether the bot should send player emotions during auto-spam.
+
+#### Methods
+* `setText(index: number, message: string)` : A function that sets the spam text by using index. Index Range: [0-3]
+
+#### Example
+```lua
+spam = getBot().auto_spam -- Accessing AutoSpam from bot class.
+spam.enabled = true -- Toggling auto-spam.
+spam.interval = 5 -- Changing Interval.
+spam.random_interval = true -- Enabling random interval feature.
+spam.show_emote = true -- Enabling emote show feature
+spam:setText(0, "This is a text message") -- 0: First Message Input.
+```
+
+## AutoGeiger
+AutoGeiger Instance which accessible from bot struct.
+
+#### Properties
+* `enabled` : A boolean indicating whether the auto-geiger feature is on or off.
+* `afk` : A boolean indicating whether if bot is forced to stand in main door.
+
+#### Example
+```lua
+geiger = getBot().auto_geiger -- Accessing AutoGeiger from bot class.
+geiger.enabled = true -- Toggling auto-geiger.
+geiger.afk = true -- Enabling afk on main door feature.
+```
+
+## AutoMessage
+AutoMessage Instance which accessible from bot struct.
+
+#### Properties
+* `enabled` : A boolean indicating whether the auto-message feature is on or off.
+* `type` : A integer that represents type of the auto-message. [0 - Message, 1 - UID Message, 2 - List Message, 3 - Single Message]
+* `ignore_admin` : A boolean indicating if admins are ignored while messaging.
+* `auto_sb` : A boolean indicating if bot forced to go sb worlds.
+* `loop_mode` : A boolean, you can check information on menu by checking help-marker(?).
+* `uid_count` : A read-only integer that represents collected uid count by list message.
+* `messaging` : A read-only boolean that represents if bot is messaging. [List Message]
+* `uid_count` : A number indicating uid count.
+* `message` : A string indicating message.
+
+#### Methods
+* `start()` : A function that will start messaging.
+* `load()` : Loads uid-list from file.
+* `save()` : Saves uid-list to a file.
+* `clear()` : Deleted uid-list file + Clears uids that collected.
+
+#### Example
+```lua
+msg = getBot().auto_message -- Accessing AutoMessage from bot class.
+msg.enabled = true -- Toggling auto-message.
+msg.message = "Hello, come my world!" -- Changing Message Text.
+msg.type = 1 -- Changing Message Type.
+msg:start() -- Starting auto message.
+```
+
+## AutoFish
+AutoFish Instance which accessible from bot struct.
+
+#### Properties
+* `enabled` : A boolean indicating whether the auto-fish feature is on or off.
+* `auto_rod` : A boolean indicating if auto-rod on or not.
+* `auto_trash` : A boolean indicating if auto-trash on or not.
+* `auto_drill` : A boolean indicating if auto-drill on or not.
+
+#### Methods
+* `setRod(id: number)` : A function that will set fishing rod.
+* `setBait(id: number)` : A function that will set fishing bait.
+
+#### Example
+```lua
+fish = getBot().auto_fish -- Accessing AutoFish from bot class.
+fish.enabled = true -- Toggling auto-fish.
+fish.auto_rod = true -- Enabling Auto-Rod feature.
+fish.auto_drill = true -- Enabling Auto-Drill feature.
+fish:setRod(3040) -- Changing Rod id.
+fish:setBait(5526) -- Changing bait id.
+```
+
+## AutoFarm
+AutoFarm Instance which accessible from bot struct.
+
+#### Properties
+* `enabled` : A boolean indicating whether the auto-farm feature is on or off.
+* `speed` : Farming Speed.
+* `id` : Farming Item id.
+* `auto_break` : Is Auto-Break mode actived.
+* `auto_place` : Is Auto-Place mode actived.
+
+#### Methods
+* `setActive(index: number, active: boolean)` : A function that will toggle active status by menu index.
+
+#### Example
+```lua
+farm = getBot().auto_farm -- Accessing AutoFarm from bot class.
+farm.enabled = true -- Toggling auto-farm.
+farm.auto_place = true
+farm.auto_break = true
+farm.id = 4584
+farm.speed = 100
+
+for i = 0, 4 do
+  farm:setActive(i, true) -- Enabling first 5 tile.
+end
+```
+
+## AutoCrime
+AutoFarm Instance which accessible from bot struct.
+
+#### Properties
+* `enabled` : A boolean indicating whether the auto-crime feature is on or off.
+
+#### Methods
+* `setActive(index: number, active: boolean)` : A function that will toggle active status by menu index.
+
+#### Example
+```lua
+crime = getBot().auto_crime -- Accessing AutoCrime from bot class.
+crime.enabled = true -- Toggling auto-crime.
+crime:setActive(0, true) -- Enabling the first villain in the menu.
+```
+
+## AutoCook
+AutoCook instance which accessible from bot struct.
+
+#### Properties
+* `is_cooking` : A boolean indicating whether the bot is cooking or not.
+* `interval` : The interval between packets.
+
+#### Methods
+* `setActive(index: number, active: boolean)` : A function that changes state of selected tiles on menu.
+* `setFood(index: number)` : A function that updates selected food by food index. Range: [0, 33]
+* `setTemperature(level: number)` : A function that updates selected temperature. (0: low, 1: medium, 2: high)
+* `start()` : A function that starts auto-cook.
+* `stop()` : A function that stops auto-cook.
+
+#### Example
+```lua
+cook = getBot().auto_cook -- Accessing AutoCook from bot struct.
+for i = 0, 63 do
+  cook:setActive(i, true) -- Activating all tiles
+end
+
+cook:setFood(0) -- Berry Crepes
+cook:setTemperature(1) -- Low Temperature
+cook:start()
+
+while cook.is_cooking do
+  print("Bot is currently cooking berry crepes.")
+  sleep(1000)
+end
+```
+
+## AutoCarnival
+AutoCarnival instance which accessible from bot struct.
+
+#### Properties
+* `enabled` : A boolean indicating whether the auto-carnival feature is on or off.
+* `auto_trash` : A boolean indicating whether the auto-trash feature is on or off.
+* `auto_buy` : A boolean indicating whether the auto-buy feature is on or off.
+* `selected_game` : The selected game index on the menu.
+
+#### Example
+```lua
+carnival = getBot().auto_carnival -- Accessing AutoCarnival from bot struct.
+carnival.enabled = true
+carnival.auto_trash = true
+carnival.auto_buy = true
+carnival.selected_game = 1 -- Selecting the 2nd game on the menu.
+```
+
+## AutoParkour
+AutoParkour instance which accessible from bot struct.
+
+#### Properties
+* `enabled` : A boolean indicating whether the auto-parkour feature is on or off.
+* `type` : The type of parkour. (0: wolf, 1: fenrir, 2: clash)
+* `limit` : The limit of the consuming ticket.
+
+#### Methods
+* `setWebhook(webhook_link: string)` : A function that updates the webhook link.
+* `setTicket(world_with_id: string)` : A function that updates the ticket storage. (Must be uppercase.) (Format: NAME|ID)
+* `setWebhook(world_with_id: string)` : A function that updates the reward storage. (Must be uppercase.) (Format: NAME|ID)
+
+#### Example
+```lua
+parkour = getBot().auto_parkour -- Accessing AutoParkour from bot struct.
+parkour.enabled = true
+parkour.limit = 1
+parkour.type = 1
+parkour:setTicket("FENRIRSTORAGE|ID1")
+parkour:setReward("FENRIROUTPUT|ID1")
+```
+
+## AutoTransfer
+AutoTransfer instance which accessible from bot struct.
+
+#### Properties
+* `enabled` : A boolean indicating whether the auto-transfer feature is on or off.
+* `drop_vertical` : A boolean indicating whether the drop-vertical feature is on or off.
+* `auto_vend` : A boolean indicating whether the auto-vend feature is on or off.
+* `restock_vend` : A boolean indicating whether the restock-vend feature is on or off.
+* `set_price` : Item's price to set on vend.
+* `buy_price` : Item's price to buy from vend.
+* `per_item` : Item's buy method.
+* `itemid` : The itemid of transfering item.
+
+#### Example
+```lua
+transfer = getBot().auto_transfer -- Accessing AutoTransfer from bot struct.
+transfer.enabled = true
+transfer.drop_vertical = true
+transfer.restock_vend = true
+transfer.itemid = 4584 -- Pepper ID
+```
+
+## AutoHarvest
+AutoHarvest instance which accessible from bot struct.
+
+#### Properties
+* `enabled` : A boolean indicating whether the auto-harvest feature is on or off.
+
+#### Methods
+* `add(string format)` : A function that lets you to add worlds.
+* `remove(string name)` : A function that lets you to remove worlds.
+* `setStorage(string name|id)` : A function that lets you to update storage world.
+
+#### Example
+```lua
+harvest = getBot().auto_harvest -- Accessing AutoHarvest from bot struct.
+harvest:setStorage("NURON|123")
+harvest:add("NURON:ID:4585")
+harvest.enabled = true
+```
+
+## AutoPlant
+AutoPlant instance which accessible from bot struct.
+
+#### Properties
+* `enabled` : A boolean indicating whether the auto-plant feature is on or off.
+
+#### Methods
+* `add(string format)` : A function that lets you to add worlds.
+* `remove(string name)` : A function that lets you to remove worlds.
+* `setStorage(string name|id)` : A function that lets you to update storage world.
+
+#### Example
+```lua
+plant = getBot().auto_plant -- Accessing AutoPlant from bot struct.
+plant:setStorage("NURON|123")
+plant:add("NURON:ID:4585")
+plant.enabled = true
+```
+automations.md
+10 KB
+
+
+# LUCIFER V2.32 - API DOCUMENTATION [ENUMS]
+
+## BotStatus
+
+An enumeration representing the different statuses a bot can have.
+
+#### Values
+* `offline` : the bot is currently offline.
+* `online` : the bot is currently online.
+* `wrong_password` : the bot's account password is incorrect.
+* `account_banned` : the bot is banned.
+* `location_banned` : the bot's device location is banned.
+* `version_update` : the game version is outdated and needs to be updated.
+* `advanced_account_protection` : the bot's account has advanced protection that prevents it from being logged in.
+* `server_overload` : the server is currently overloaded and cannot handle any more connections.
+* `too_many_login` : there have been too many login attempts to the game server.
+* `maintenance` : the server is currently undergoing maintenance and is unavailable.
+* `server_busy` : the server is currently busy and cannot handle any more connections.
+* `guest_limit` : the maximum number of guests for the ip has been reached.
+* `guest_disabled` : guest accounts are currently disabled.
+* `account_restricted` : the account is restricted from growtopia.
+* `network_restricted` : maximum supported number of bots in network is reached.
+* `http_block` : the server is blocking HTTP connections from bot ip.
+* `bad_name_length` : the bot name is too short or too long.
+* `invalid_account` : the bot is invalid.
+* `error_connecting` : there was an error connecting to the server.
+* `logon_fail` : the bot failed to log in.
+* `captcha_requested` : captcha requested by gt.
+* `mod_entered` : a mod entered bot's world.
+* `player_entered` : a player entered bot's world.
+* `high_load` : the bot's subserver is currently on high load.
+* `high_ping` : the bot's ping is currently is higher than maximum-ping.
+* `changing_subserver` : the bot's subserver is currently switching.
+* `stopped` : the bot's actions have been stopped by 'Auto-Stop'.
+* `getting_server_data` : bot is currently getting server data from gt-1 or gt-2.
+* `bypassing_server_data` : bot is currently bypassing server data with another proxy.
+
+#### Example
+```lua
+-- Get the current status of the bot
+local status = getBot().status
+
+-- Check if the bot is online
+if status == BotStatus.online then
+    print("Bot is online!")
+end
+```
+
+## CaptchaStatus
+
+An enumeration representing the different status codes for a captcha.
+
+#### Values
+* `no_captcha` : there is no captcha to solve.
+* `not_found` : the captcha could not be found.
+* `solved` : the captcha was successfully solved.
+* `solving` : the captcha is currently being solved.
+* `wrong` : the answer to the captcha was incorrect.
+* `failed` : the captcha could not be solved.
+* `no_access` : the captcha could not be solved due to http forbidden or bad gateway error.
+* `invalid_key` : the captcha could not be solved due to wrong captcha api key.
+* `invalid_token` : the captcha could not be solved due to corrupted website.
+
+#### Example
+```lua
+-- Check if a captcha has been solved
+local captchaStatus = getBot().captcha_status
+
+if captchaStatus == CaptchaStatus.solved then
+    print("Captcha has been solved!")
+end
+```
+
+## Method
+
+An enumeration representing the different HTTP methods.
+
+#### Values
+* `get` : HTTP GET method.
+* `post` : HTTP POST method.
+* `put` : HTTP PUT method.
+* `patch` : HTTP PATCH method.
+* `delete` : HTTP DELETE method.
+* `head` : HTTP HEAD method.
+
+#### Example
+```lua
+-- Make an HTTP request using the GET method
+
+local client = HttpClient.new()
+
+client.method = Method.get
+client.url = "https://www.google.com"
+
+response = client:request()
+print(response.body)
+```
+
+## Event
+
+An enumeration representing the different types of events.
+
+#### Values
+* `variantlist` : Variant List event. -- function(variantlist, netid)
+* `game_message` : Game Message event. -- function(message)
+* `generic_text` : Generic Text event. -- function(message)
+* `update_packet` : Game Update Packet event. -- function(packet)
+* `track_packet` : Track Packet event. -- function(message)
+
+#### Example
+```lua
+addEvent(Event.variantlist, function(variant, netid)
+  getBot():getLog():append(
+     string.format(
+        "Type: %s\n",
+        variant:get(0):getString()
+     )
+  )
+end)
+```
+
+## VariantType
+
+An enumeration representing the variant type of a variant.
+
+#### Values
+* `float` : type float.
+* `int32` : type int32.
+* `uint32` : type uint32.
+* `string` : type string.
+* `unused` : type unused.
+* `vector2` : type vector2.
+* `vector3` : type vector3.
+* `component` : type component.
+* `entity` : type entity.
+
+#### Example
+```lua
+vlist = variantlist.new()
+
+vlist:get(4):set("nuron")
+if vlist:get(4):getType() == VariantType.string then
+    print("Successfully modified variant[4] value.")
+end
+```
+
+## GeigerArea
+
+An enumeration representing the type of geiger area.
+
+#### Values
+* `null` : No Area
+* `red` : Red Area.
+* `yellow` : Yellow Area.
+* `green` : Green Area.
+* `rapid` : Rapid Green Area.
+* `prize` : Prize Area.
+
+#### Example
+```lua
+bot = getBot()
+
+signal = bot:getSignal()
+
+if signal.type ~= GeigerArea.null then
+    print(string.format("Latest geiger area found on (%i:%i)", signal.x, signal.y))
+end
+```
+
+## Role
+
+An enumeration representing the role type.
+
+#### Values
+* `farm` : Farmer Role
+* `build` : Builder Role
+* `surg` : Master Surgeon Role.
+* `fish` : Fisher Role.
+* `cook` : Chef Role.
+* `startopia` : Star Captain Role.
+
+## Bubble
+
+An enumeration representing bubble type.
+
+#### Values
+* `none` : No Bubble.
+* `talk` : Talking Bubble.
+* `brb` : Busy(brb) Bubble.
+
+#### Example
+```lua
+bot = getBot()
+bot:setBubble(Bubble.talk)
+```
+
+## Platform
+
+An enumeration representing login platform.
+
+#### Values
+* `windows` : PLATFORM_WINDOWS.
+* `android` : PLATFORM_ANDROID.
+* `macos` : PLATFORM_MACOS.
+
+#### Example
+```lua
+addBot("name", "password", "", "", Platform.android) -- Adding bot with Android Platform.
+```
+
+## StorageType
+
+An enumeration representing storage type on rotation.
+
+#### Values
+* `pack` : Type Pack Storage.
+* `seed` : Type Seed Storage.
+
+## Proxy
+
+An enumeration representing proxy type.
+
+#### Values
+* `none` : No Proxy.
+* `http` : HTTP Proxy.
+* `https` : HTTPs Proxy.
+* `socks5` : Socks5 Proxy.
+
+## PlayerState
+## TileType
+## TileFlag
+## NpcType
+enums.md
+7 KB
+
+# LUCIFER V2.32 - API DOCUMENTATION [FUNCTIONS]
+
+* `sleep(ms: number)` : Sleeps script for certain milliseconds.
+#### Example
+```lua
+bot = getBot()
+while true do
+  bot:say("Advanced Multibot Application by Nuron")
+  sleep(math.random(4500, 6500))
+end
+```
+
+* `getInfo(name: string or id: number) -> ItemInfo` : Get Item Info by item's id or item's name.
+* `getInfos() -> table` : Get All Item Infos. (Returns table of ItemInfos)
+#### Example
+```lua
+for i, item in pairs(getInfos()) do
+  if getInfo(4584).name == item.name then
+    print("Found Pepper Tree on database.")
+  end
+end
+```
+
+* `read(path: string) -> string` : Reads from file and returns its content.
+* `write(path: string, content: string)` : Writes content to a file.
+* `append(path: string, content: string)` : Appends content to a file.
+#### Example
+```lua
+write("nuron.txt", "Some Message")
+print(read("nuron.txt"))
+```
+
+* `addBot(name: string, password: string) -> Bot` :  Adds bot if it doesnt exist.
+* `addBot(name: string) -> Bot` :  Adds a guest bot if it doesnt exist.
+* `addBot(name: string, password: string, mac: string, rid: string) -> Bot` :  Adds bot if it doesnt exist.
+* `addBot(name: string, password: string, mac: string, rid: string, platform: Platform) -> Bot` :  Adds bot with Platform if it doesnt exist.
+* `addBot(name: string, mac: string, rid: string) -> Bot` :  Adds ubi-bot if it doesnt exist.
+* `addUbiBot(mail: string, password: string) -> Bot` :  Adds ubi-bot if it doesnt exist.
+* `addUbiBot(mail: string, password: string, username: string) -> Bot` :  Adds and registers ubi-bot if it doesnt exist.
+#### Example
+```lua
+addBot("nuron") -- Adding guest account.
+addBot("nuron", "02:00:00:00:00:00", "rid_here") -- Adding guest account with device information.
+addBot("nuron", "nuron123") -- Adding normal account.
+addBot("nuron", "nuron123", "02:00:00:00:00:00", "RID") -- Adding normal account with device information.
+addBot("nuron", "", "", "", Platform.android) -- Adding guest account with platform information.
+addUbiBot("nuron@gmail.com", "gmail_password") -- Adding Ubi-Connect Account.
+addUbiBot("nuron@gmail.com", "gmail_password", "NewAccount123") -- Creating New Ubi-Connect Account.
+
+addBot("nuron"):connect() -- Adding account then using method. (You can use functions because addBot returns the bot instance.)
+```
+
+* `removeBot()` : Removes bot if it exists.
+* `removeBot(name: string)` : Removes bot if it exists.
+#### Example
+```lua
+removeBot() -- Removing the script parent bot.
+removeBot("nuron") -- Removing bot with custom name.
+```
+
+* `getBot() -> Bot` : Returns the parent bot that executor executed in.
+* `getBot(name: string) -> Bot` : Returns the target bot with its name. If not found then it returns nil.
+* #### Example
+```lua
+getBot():say("Hello, my mate!") -- Getting script parent Bot then texting.
+getBot("nuron"):disconnect() -- Getting specific bot with nuron growid and disconnecting it.
+```
+
+* `addEvent(Event: type, lua_function: function)` : Adds a event.
+* `listenEvents(seconds: number)` :  Listens all added events with specific duration.
+* `unlistenEvents()` :  Unlisten all events. (Mostly called on event functions to stop listening.)
+* `removeEvent(Event: type)` : Removes the events by specific type.
+* `removeEvents()` : Removes all signed events.
+* #### Example
+```lua
+function OnVariantList(varlist, netid) -- Using the variantlist event parameters. You can view them from enums.md
+  if variant:get(0):getString() == "OnConsoleMessage" then
+    message = variant:get(1):getString()
+    print(string.format("[Console]: %s", message))
+    if message:match("!stop") then
+      print("Stop has been requested by someone. Unlistening...")
+      unlistenEvents() -- Now we don't have to wait 10000 seconds anymore. Since we have been unlistened.
+    end
+  end
+end
+
+addEvent(Event.variantlist, OnVariantList) -- Adding the variantlist event to the Event Manager.
+
+listenEvents(10000) -- Listening incoming console messages for 10000 seconds.
+
+removeEvent(Event.variantlist) -- Removing all attached variantlist events for cleanup.
+removeEvents() -- You can also remove all events with this function.
+```
+
+* `removeColor(text: string) -> string` : Removes all the colors from the text.
+#### Example
+```lua
+ colored_nickname = "`4Nuron"
+ uncolored_nickname = removeColor(colored_nickname)
+ print(string.format("%s -> %s", colored_nickname, uncolored_nickname))
+```
+
+* `getProxyManager() -> ProxyManager` : Returns app proxy manager.
+#### Example
+```lua
+ proxy_manager = getProxyManager()
+ proxy_manager:addProxy("127.0.0.1:80") -- Adding new proxy.
+-- You can view struct.md for additional functions. This not all!
+```
+
+* `getWorldManager() -> WorldManager` : Returns app world manager.
+#### Example
+```lua
+ world_manager = getWorldManager()
+ world_manager:addFarm("PepperFarm:DoorID", 4584") -- Adding new pepper farm.
+-- You can view struct.md for additional functions. This not all!
+```
+
+* `addProxy(proxy_data: string)` : Adds proxy if it doesnt exist in menu.
+* `removeProxy(ip: string, port: string)` : Removes proxy if it exists.
+#### Example
+```lua
+ addProxy("127.0.0.1:80") -- Adding Proxy
+ removeProxy("127.0.0.1", 80) -- Removing Proxy
+```
+
+* `getUsername() -> string` : Returns the lucifer account username.
+#### Example
+```lua
+ username = getUsername()
+ print(string.format("Hello %s, thanks for using lucifer <3", username))
+```
+
+* `clearConsole()` : Clears Console Content. [ os.execute("cls") ]
+#### Example
+```lua
+print("message")
+sleep(3000)
+clearConsole()
+```
+
+* `runThread(function, ...)` :  Runs a thread. You can use as many parameters as u need.
+#### Example
+```lua
+function spam(text, interval) -- We have decleared 2 parameters.
+  print(string.format("Starting Auto-Spam with text %s and interval %ims.", text, interval))
+  while true do
+    getBot():say(text)
+    sleep(interval)
+  end
+end
+
+runThread(spam, "Thanks for using Lunatic Lucifer", 8000) -- We need to add 2 additional parameters rather than function because function takes 2 parameters.
+runThread(spam, "That is a very secret message that would occur anytime", math.random(1, 1000000))
+
+while true do -- Main Script.
+  sleep(...)
+end
+```
+
+## Here list of shortcut functions that u can access.
+* getTile
+* getTiles
+* getTilesSafe
+* getObject
+* getObjects
+* getPlayer
+* getPlayers
+* getNPC
+* getNPCs
+* getLocal
+* hasAccess
+* getWorld
+* getInventory
+functions.md
+7 KB
+
+# LUCIFER V1.8 - API DOCUMENTATION [STRUCTURES]
+
+## Bot
+A structure representing a bot.
+
+#### Properties
+* `name` : The name of the bot.
+* `status` : The status of the player.
+* `captcha_status` : The status of the captcha.
+* `selected` : Is bot selected on the menu.
+* `gem_count` : The number of gems the bot has.
+* `pearl_count` : The number of pearls the bot has.
+* `voucher_count` : The number of vouchers the bot has.
+* `level` : The level of the bot.
+* `is_account_secured` : A read-only property that returns whether the bot account is secured.
+* `move_interval` : The interval between movement packets on pathfinding.
+* `move_range` : The range between tiles while pathfinding.
+* `rest_time` : Rest time of the bot.
+* `rest_interval` : The interval between rests.
+* `consume_id` : The item id of the consumable.
+* `consume_interval` : The interval between consumes.
+* `consumed_once` : Is bot consumed a consumable once (You can toggle this off for forcing to consume).
+* `auto_reconnect` : A boolean property that enables/disables auto-reconnect.
+* `auto_accept` : A boolean property that enables/disables auto-accept.
+* `auto_leave_on_admin` : A boolean property that enables/disables auto-leave when an admin is in the world.
+* `auto_leave_on_mod` : A boolean property that enables/disables auto-leave when a mod is in the world.
+* `auto_ban` : A boolean property that enables/disables auto-ban.
+* `auto_tutorial` : A boolean property that enables/disables auto-tutorial.
+* `auto_collect` : A boolean property that enables/disables auto-collect.
+* `auto_consume` : A boolean property that enables/disables auto-consume.
+* `auto_trash` : A boolean property that enables/disables auto-trash.
+* `auto_rest_mode` : A boolean property that enables/disables auto-rest-mode.
+* `auto_take_pickaxe` : A boolean property that enables/disables auto-take-pickaxe.
+* `auto_expand_inventory` : A boolean property that enables/disables auto-expand-inventory.
+* `legit_mode` : A boolean property that enables/disables legit-mode.
+* `reconnect_interval` : Reconnect interval of the bot.
+* `ignore_gems` : A boolean property that enables/disables ignoring gems.
+* `ignore_essences` : A boolean property that enables/disables ignoring essences.
+* `object_collect_delay` : A number property that sets the delay for collecting spawned objects.
+* `collect_all` : A bool property that enables/disables collect all mode while collecting.
+* `collect_path_check` : A bool property that enables/disables path check while collecting.
+* `collect_interval` : A number property that sets the interval for collecting.
+* `collect_range` : A number property that sets the range for collecting.
+* `auto_geiger` : AutoGeiger Instance.
+* `auto_message` : AutoMessage Instance.
+* `auto_spam` : AutoSpam Instance.
+* `auto_crime` : AutoCrime Instance.
+* `auto_farm` : AutoFarm Instance.
+* `auto_fish` : AutoFish Instance.
+* `auto_cook` : AutoCook Instance.
+* `auto_carnival` : AutoCarnival Instance.
+* `auto_parkour` : AutoParkour Instance.
+* `auto_transfer` : AutoTransfer Instance.
+* `auto_harvest` : AutoHarvest Instance.
+* `auto_plant` : AutoPlant Instance.
+* `console` : Console Instance.
+* `log` : Log Instance.
+
+#### Methods
+* `getWorld() -> World` : Returns bot world.
+* `getInventory() -> Inventory` : Returns bot inventory.
+* `getConsole() -> Console` : Returns bot console.
+* `getLog() -> Log` : Returns bot log.
+* `getLogin() -> Login` : Returns bot login.
+* `getProxy()` : Returns proxy instance of bot.
+* `getPlaytime()` : Returns account playtime of bot.
+* `getAge()` : Returns account age of bot.
+* `getActiveTime()` : Returns active time of bot as string.
+* `getPing() -> number` : Returns the ping value of the bot.
+* `getSignal() -> Signal` : Returns the latest geiger signal.
+* `getCaptcha() -> string` : Returns the captcha link if bot is received.
+* `connect() -> boolean` : Makes bot connect to the game server.
+* `disconnect()` : Makes bot disconnect from the game server.
+* `sendRaw(packet: GameUpdatePacket)` : Sends Raw packet if its valid & connected & no captcha.
+* `sendPacket(type: number, packet: string)` : Sends packet if its valid & connected & no capctcha.
+* `warp(name: string) | warp(name: string, id: string)` : Warps to specific world with id (optional).
+* `say(text: string)` : Sends a message to world, if bot is in a world.
+* `use(item_id: number)` : Uses the item if its consumable & in inventory.
+* `wear(item_id: number)` : Wears an item if bot isn't wearing.
+* `unwear(item_id: number)` : Unwears an item if bot is wearing.
+* `drop(item_id: number, item_count: number)` : Drops the item if item's id & count is valid.
+* `trash(item_id: number, item_count: number)` : Trashes the item if item's id & count is valid.
+* `fastDrop(item_id: number, item_count: number)` : Drops the item if item's id & count is valid.
+* `fastTrash(item_id: number, item_count: number)` : Trashes the item if item's id & count is valid.
+* `buy(store_id: string)` : Buys item from store with its store_id.
+* `buy(item_id: number, item_count: number, max_price: number)` : Buys item from vend.
+* `retrieve(x: number, y: number, count: number)` : Retrieves item from gaia etc.
+* `retrieve(x: number, y: number)` : Retrieves all items (200 max) from gaia etc.
+* `active(x: number, y: number)` : Sends Tile Active packet on a tile.
+* `leaveWorld()` : Leaves from world if bot is in a world.
+* `setBubble(bubble: BubbleType)` : Sets Bot bubble status, you can check enum for more information.
+* `place(x: number, y: number, item: number)` : Places block if its valid.
+* `hit(x: number, y: number)` : Hit to tile if range safe & valid position.
+* `wrench(x: number, y: number)` : Wrench to tile if range safe & valid position.
+* `wrenchPlayer(netID: number)` : Wrenchs to a player if player exists.
+* `moveTo(difference_x: number, difference_y: number)` : Moves to tile with x and y difference. Ex: moveTo(1, 0) makes u move right.
+* `moveTile(tilex: number, tiley: number)` : Moves to the tile if range safe & valid position.
+* `moveLeft()` : Moves bot to left if its valid position
+* `moveLeft(range: number)` : Moves bot to left if its valid position
+* `moveRight()` : Moves bot to right if its valid position
+* `moveRight(range: number)` : Moves bot to right if its valid position
+* `moveUp()` : Moves bot to up if its valid position
+* `moveUp(range: number)` : Moves bot to up if its valid position
+* `moveDown()` : Moves bot to down if its valid position
+* `moveDown(range: number)` : Moves bot to down if its valid position
+* `enter()` : Enters the door, if there is door.
+* `enter(pass: string)` : Enters the password door with custom password.
+* `respawn()` : Respawns the bot.
+* `getPath(x: number, y: number) -> table` : Returns table of PathNodes if path found. Returns empty table if not found.
+* `findPath(x: number, y: number)` : Finds tile path and moves to destination.
+* `findWorldPath(x: number, y: number)` : Finds world path and moves to destination.
+* `collectObject(oid: number, range: number)` : Collects the object if bot is in range.
+* `collect(range: number, interval: number)` : Collect all objects by range and interval.
+* `isInWorld() -> bool` : Returns true if bot is in a world.
+* `isInWorld(name: string) -> bool` : Returns true if bot is in a world with name.
+* `isInTile(x: number, y: number) -> bool` : Returns true if the bot is in the tile.
+* `isInTile(point: Tile) -> bool` : Returns true if the bot is in the tile.
+* `updateBot(name: string)` : Updates bot.
+* `updateBot(name: string, password: string)` : Updates bot.
+* `updateBot(name: string, mac: string, rid: string)` : Updates bot.
+* `updateBot(name: string, password: string, mac: string, rid: string)` : Updates bot.
+* `setSkin(id: number)` : Skin id of the bot. (1 to 6).
+* `setDirection(faceleft: boolean)` : Sets facing of the bot.
+* `setCountry(country: string)` : Changes bot country. (Must re-connect)
+* `setMac(mac: string)` : Changes mac address of the bot.
+* `setRid(rid: string)` : Changes rid value of the bot.
+* `runScript(content: string)` : Runs custom script on bot.
+* `stopScript()` : Stops running script of the bot.
+
+## ProxyManager
+ProxyManager that handles proxies.
+
+#### Properties
+- `localize` : Built-in Localize Country feature (Boolean).
+- `spread` : Built-in Spread Proxy feature (Boolean).
+
+#### Methods
+- `addProxy(proxy_data: string)` : Adds proxy to list.
+- `removeProxy(ip: string, port: string)` : Removes proxy from list.
+- `setLimit(new_limit: number)` : Sets bot limit.
+
+```lua
+manager = getProxyManager()
+
+manager:setLimit(3)
+manager:addProxy("176.42.69.53:80")
+manager:removeProxy("176.42.69.53", 80)
+```
+
+## Console
+
+A structure representing a console for displaying text.
+
+#### Properties
+* `contents` : a string table containing the current contents of the console.
+
+#### Methods
+* `append(text: string)` : appends the specified text to the console content.
+
+#### Example
+```lua
+console = getBot():getConsole()
+console:append("`4Lucifer v1.8")
+
+for i, content in pairs(console.contents) do
+  print(content) -- Printing the console contents one by one.
+end
+```
+
+## Log
+
+A structure representing a log for displaying text.
+
+#### Properties
+* `content` : a string containing the current content of the logs tab.
+
+#### Methods
+* `append(text: string)` : appends the specified text to the log content.
+* `clear()` : clears the logs.
+
+#### Example
+```lua
+log = getBot():getLog()
+
+log:append("This is a log message")
+```
+
+## Login
+A structure that holds login details like growid, password, mac, klv or so.
+
+#### Properties
+`mac` : Mac Address of the bot.
+`rid` : Rid of the bot.
+
+## Signal
+A container that have details about latest geiger area.
+
+#### Properties
+* `x` : Tile position x of signal.
+* `y` : Tile position y of signal.
+* `type` : GeigerArea type.
+
+#### Example
+```lua
+signal = getBot():getSignal()
+print(string.format("Found geiger signal at %i:%i", signal.x, signal.y))
+```
+
+## Inventory
+
+The Inventory class represents a player's inventory in the game. It contains information about the items the player has, including the item ID, count, and whether the item is active.
+
+#### Properties
+* `items` : A table containing all the InventoryItem objects in the inventory.
+* `itemcount` : The number of items in the inventory.
+* `slotcount` : The number of slots available in the inventory.
+* `version` : The version of the inventory.
+#### Methods
+* `getItem(itemID: number | string) -> InventoryItem` : Returns the InventoryItem with the specified item ID. It returns nil if not found.
+* `getItems() -> table` : Returns a table containing all the InventoryItem objects in the inventory.
+* `findItem(itemID: number | string) or getItemCount(itemID: number | string) -> number` : Returns the InventoryItem count with the specified item ID. It returns 0 if not found.
+* `canCollect(itemID: number) -> boolean` : Returns true if the player can collect the item with the specified item ID, false otherwise.
+
+#### Example
+```lua
+inventory = getBot():getInventory()
+
+for i, item in pairs(inventory:getItems()) do
+  print("Found Item "..getInfo(item.id).name)
+end
+```
+
+## InventoryItem
+
+A structure representing an item in an inventory.
+
+#### Properties
+* `id` : an integer representing the ID of the item.
+* `count` : an integer representing the number of this item in the inventory.
+* `isActive` : a boolean indicating whether or not the item is currently weared.
+
+#### Example
+```lua
+inventory = getBot():getInventory()
+
+inventory_item = inventory:getItem(242)
+if inventory_item then
+  print("Inventory contains "..inventory_item.count.." world locks.")
+end
+```
+
+## Clothes
+
+The `Clothes` class represents the clothing items that a player's avatar is wearing. It contains information about each item, including the item ID.
+
+#### Properties
+* `hat` : The ID of the hat the avatar is wearing.
+* `shirt` : The ID of the shirt the avatar is wearing.
+* `pants` : The ID of the pants the avatar is wearing.
+* `shoes` : The ID of the shoes the avatar is wearing.
+* `face` : The ID of the face item the avatar is wearing.
+* `hand` : The ID of the hand item the avatar is wearing.
+* `wings` : The ID of the wings item the avatar is wearing.
+* `mask` : The ID of the mask the avatar is wearing.
+* `neck` : The ID of the neck item the avatar is wearing.
+* `ances` : The ID of the accessory item the avatar is wearing.
+* `unk1` : An unknown value related to the avatar's clothing.
+* `unk2` : An unknown value related to the avatar's clothing.
+
+#### Example
+```lua
+player = getLocal()
+
+if player then
+  clothes = player.clothes
+  print(clothes.hat)
+end
+```
+
+## Player
+The Player class represents an in-game player and contains various properties to access information about the player.
+
+#### Properties
+* `name` : The display name of the player.
+* `altName` : The alternative name of the player.
+* `country` : The country of the player as a string.
+* `netid` : The network ID of the player.
+* `userid` : The user ID of the player.
+* `bubble` : The text bubble of the player.
+* `posx` : The X position of the player.
+* `posy` : The Y position of the player.
+* `vecx` : The X velocity of the player.
+* `vecy` : The Y velocity of the player.
+* `avatarFlags` : The avatar flags of the player.
+* `isModerator` : A boolean indicating whether the player is a moderator.
+* `isSuperModerator` : A boolean indicating whether the player is a super moderator.
+* `isLocalPlayer` : A boolean indicating whether the player is the local player.
+* `isFriendWithOwner` : A boolean indicating whether the player is a friend of the owner.
+* `flag2019` : The 2019 flag of the player.
+* `skincolor` : The skin color of the player.
+* `roleskin` : The role skin of the player.
+* `roleicon` : The role icon of the player.
+* `clothes` : An instance of the Clothes class representing the clothes of the player. See Clothes class documentation for more details.
+
+#### Example
+```lua
+player = getPlayer("nuron")
+
+print("NetID: "..player.netid)
+print("UserID: "..player.userid)
+```
+
+## NetObject
+The object class represents an object in a world.
+
+#### Properties
+- `id` : The item ID of object.
+- `x` : The x-coordinate of object.
+- `y` : The y-coordinate of object.
+- `count` : The item count of object.
+- `flags` : The object flags.
+- `oid` : The object id.
+
+#### Example
+```lua
+print("First Object's alt item count: "..getObject(1).count)
+```
+
+## NPC
+The NPC class that represents a npc in a world. Which is like ghost, pinata etc.
+
+#### Properties
+- `type` : The type of the npc.
+- `id` : The world index of the npc.
+- `x` : Current x-coordinate of npc.
+- `y` : Current y-coordinate of npc.
+- `destx` : Destination x of npc. (Aka next position)
+- `desty` : Destination y of npc. (Aka next position)
+- `var` : NPC variable.
+- `unk` : Unk Value.
+
+#### Example
+```lua
+print("First NPC's id: "..getNPC(1).id)
+```
+
+## TileExtra
+The extra datas of the tile.
+
+#### Properties
+(Same as nightmare docs)
+
+## Tile
+
+The Tile class represents a single tile in the game world.
+
+#### Properties
+* `foreground` (`fg`) : The foreground tile ID.
+* `background` (`bg`) : The background tile ID.
+* `x` : The x-coordinate of the tile.
+* `y` : The y-coordinate of the tile.
+* `parent` : The parent object of the tile.
+* `flags` : The flags set for the tile.
+
+#### Methods
+* `hasExtra() -> boolean` : Returns true if the tile has an extra data field, false otherwise.
+* `getExtra() -> TileExtra*` : Returns a pointer to the extra data field for the tile. Returns nil if the tile has no extra data.
+* `canHarvest() -> boolean` : Returns true if tree is ready.
+* `hasFlag(flag: number) -> boolean` : Returns true if the flag is actived on tile.
+
+#### Example
+```lua
+tile = getTile(0, 0)
+
+if tile:canHarvest() then
+  print("You can harvest this tile!")
+end
+```
+
+## PathNode
+
+The PathNode class represents a node in a pathfinding algorithm.
+
+#### Properties
+* `x` : The x-coordinate of the node.
+* `y` : The y-coordinate of the node.
+
+#### Example
+```lua
+path = getBot():getPath(50, 30)
+
+for i, node in pairs(path) do
+ getBot():moveTile(node.x, node.y)
+ sleep(100)
+end
+```
+
+## Growscan
+
+The Growscan class represents the result of a "growscan" operation, which is used to scan the environment around a player and identify nearby tiles and objects.
+
+#### Properties
+* `tiles` : A table containing the IDs of the tiles that were found in the growscan, along with the number of times each tile was found.
+* `objects` : A table containing the IDs of the objects that were found in the growscan, along with the number of times each object was found.
+
+#### Methods
+* `getTiles() -> map<id, count>` : Returns tiles.
+* `getObjects() -> map<id, count>` : Returns objects.
+
+#### Example
+```lua
+growscan = getBot():getWorld().growscan
+
+for id, count in pairs(growscan:getObjects()) do
+  print(getInfo(id).name..": x"..count)
+end
+```
+
+## World
+The World class represents a game world. It contains information about the size of the world, tiles, objects, players, and NPCs.
+
+#### Properties
+* `name` : The name of the world.
+* `x` : The width of the world.
+* `y` : The height of the world.
+* `tile_count` : The total number of tiles in the world.
+* `growscan` : A Growscan object representing the world's growscan.
+* `tiles` : A table containing all the Tiles in the world.
+* `objects` : A table containing all the NetObjects in the world.
+* `players` : A table containing all the Players in the world.
+* `npcs` : A table containing all the Npcs in the world.
+* `adventures` : A table containing bot adventure item data in the world.
+* `public` : A boolean value indicating whether the world is public or not.
+* `version` : The version of the world.
+#### Methods
+* `getTile(x: number, y: number) -> Tile` : Returns the Tile object at the specified x,y position.
+* `getObject(x: number) -> NetObject` : Returns the NetObject object at the specified objectid(oid).
+* `getPlayer(netID: number | string) -> Player` : Returns the NetAvatar object with the specified player netID or name. It returns nil if not found.
+* `getNPC(npcID: number) -> NPC` : Returns the NetNPC object with the specified NPC ID. It returns nil if not found.
+* `getAdventure(index: number) -> Adventure` : Returns adventure data at index. 
+* `getTiles() -> table<Tile>&` : Returns tiles. 
+* `getTilesSafe() -> table<Tile>` : Returns copy of tiles. 
+* `getObjects() -> table<NetObject>` : Returns objects. 
+* `getPlayers() -> table<Player>` : Returns players. 
+* `getNPCs() -> table<NPC>` : Returns npcs.
+* `getAdventures() -> table<Adventure>` : Returns adventure datas. 
+* `getLocal() -> Player` : Returns the NetAvatar object representing the local player.
+* `getTileParent(tile: Tile) -> Tile` : Returns the Tile that the specified Tile is attached to.
+* `hasAccess(x: number, y: number) -> boolean` : Returns true if the player has access to the specified x,y position, false otherwise.
+* `hasAdventure(adventure_item: number)` : Returns true if bot has adventure_item actived.
+* `isValidPosition(x: number, y: number) -> boolean` : Returns true if the specified x,y position is within the bounds of the world.
+
+#### Example
+```lua
+world = getBot():getWorld()
+
+for i, tile in pairs(world:getTiles()) do
+ if tile.fg == 242 then
+   print("Found World Lock in world "..world.name)
+   break
+ end
+end
+```
+
+## ItemInfo
+The ItemInfo class represents information about an item in the game. It contains information about the item's id, category, kind, collision, rarity, name, texture, and more.
+
+#### Properties
+* `id` : The unique identifier for the item.
+* `editable_type` : The type of the item for the purpose of the item.
+* `item_category` : The category of the item.
+* `action_type` : The type of the item's action.
+* `hit_sound_type` : The type of the item's hit sound.
+* `item_kind` : The kind of the item.
+* `collision_type` : The type of the item's collision.
+* `clothing_type` : The type of clothing for the item, if its clothing.
+* `rarity` : The rarity of the item.
+* `seed_color` : The color of the seed base.
+* `seed_overlay_color` : The color of the seed overlay.
+* `grow_time` : The grow time of the item, if it is a plant.
+* `drop_chance` : The drop chance of the item.
+* `name` : The name of the item.
+* `texture` : The texture file for the item.
+* `texture_hash` : The hash of the texture file for the item.
+* `texture_x` : The x-coordinate of the texture for the item. (Sprite Position)
+* `texture_y` : The y-coordinate of the texture for the item. (Sprite Position)
+* `null_Item` : True if item name contains null.
+
+#### Example
+```lua
+print("You need to hit "..getInfo(7188).strength.." times to break blue gem lock.")
+```
+
+## GameUpdatePacket
+
+Represents a packet that updates the state of an object in the game.
+
+- `type` : The type of packet.
+- `object_type` : The type of object change type.
+- `count1` : A count variable used in certain types of packets.
+- `count2` : A count variable used in certain types of packets.
+- `netid` : The network ID of the object/player... being updated.
+- `item` : The item being updated.
+- `flags` : A set of flags used in certain types of packets.
+- `float_var` : A floating point variable used in certain types of update packets.
+- `int_data` : An integer variable used in certain types of update packets.
+- `vec_x` | `pos_x` : The x position of a component being updated.
+- `vec_y` | `pos_y` : The y position of a component being updated.
+- `vec2_x` | `pos2_x` : The velocity x of a component being updated.
+- `vec2_y` | `pos2_y` : The velocity y of a component being updated.
+- `particle_rotation` : The rotation of a particle being updated.
+- `int_x` : An integer variable used in certain types of update packets. (Ex Tile Position)
+- `int_y` : An integer variable used in certain types of update packets. (Ex Tile Position)
+
+#### Example
+```lua
+packet = GameUpdatePacket.new()
+...
+packet.type = 0
+...
+getBot():sendRaw(packet)
+```
+
+## Vector2
+A Vector2 is a container that holds x and y positions.
+
+#### Properties
+- `x` : x position.
+- `y` : y position. 
+
+## Vector3
+A Vector3 is a container that holds x, y and z positions.
+
+#### Properties
+- `x` : x position.
+- `y` : y position. 
+- `z` : z position. 
+
+## variant
+Represents a variant type that can store different types of data.
+
+#### Methods
+- `getType() -> VariantType` : Returns the type of the stored data.
+- `print()` : Dumps the stored data to a string.
+- `set(string)` : Sets the stored data to a string.
+- `set(int)` : Sets the stored data to an integer.
+- `set(float)` : Sets the stored data to a floating-point number.
+- `set(float, float)` : Sets the stored data to a 2D vector.
+- `set(float, float, float)` : Sets the stored data to a 3D vector.
+- `set(vector2)` : Sets the stored data to a 2D vector.
+- `set(vector3)` : Sets the stored data to a 3D vector.
+- `reset()` : Resets the stored data to an empty state.
+- `getString() -> string` : Returns the stored data as a string.
+- `getInt() -> number` : Returns the stored data as an integer.
+- `getFloat() -> float` : Returns the stored data as a floating-point number.
+- `getVector2() -> Vector2` : Returns the stored data as a 2D vector.
+- `getVector3() -> Vector3` : Returns the stored data as a 3D vector.
+
+#### Example
+```lua
+variant = variant.new()
+
+variant:set(5)
+print(variant:getInt())
+```
+
+## variantlist
+Represents a list of variant objects.
+
+#### Methods
+- `get(index) -> variant` : Returns the variant object at the specified index.
+- `print() -> string` : Dumps the entire list to a string.
+
+#### Example
+```lua
+function on_variantlist(variantlist, netid)
+  head = variant:get(0):getString()
+  if head == "OnConsoleMessage" then
+    console_message = variant:get(1):getString()
+  end
+end
+
+addEvent(Event.variantlist, on_variantlist)
+listenEvents(60)
+```
+
+## RTParam
+
+### Properties
+- `parameters` : The list of parameters (table)
+- `key` : The key (string)
+- `has_seperator` : Whether or not the parameter has a separator at the end (boolean)
+
+## RTVAR
+RTVAR represents a runtime variable that can have multiple parameters.
+
+#### Methods
+- `RTVAR.new()` : Constructs a new RTVAR object with an empty parameter list.
+- `RTVAR.new(string)` : Constructs a new RTVAR object with the given string as its parameter list.
+- `params() -> string` : Returns the parameter list as a string.
+- `append(key: string, value: string, separator: bool)` : Appends a new parameter with the given key and value to the parameter list. If separator is true, a separator character is added at the end of the parameter list.
+- `append(key: string, value: number, separator: bool)` : Appends a new parameter with the given key and numeric value to the parameter list. If separator is true, a separator character is added at the end of the parameter list.
+- `contains(key: string) -> bool` : Returns true if the parameter list contains a parameter with the given key, false otherwise.
+- `dump() -> string` : Dumps the RTVAR to a string.
+- `erase(key: string)` : Removes the parameter with the given key from the parameter list.
+- `find(key: string) -> number` : Returns the RTPARAM with the given key, nil if its not found.
+- `get(key: string) -> string` : Returns the value of the parameter with the given key as a string.
+- `getInt(key: string) -> number` : Returns the value of the parameter with the given key as an integer.
+- `getLong(key: string) -> number` : Returns the value of the parameter with the given key as a long integer.
+- `getParam(key: string) -> rtparam` : Returns the rtparam with given key.
+- `getParams(key: string) -> table` : Returns the table of rtparams with given key.
+- `modify(key: string, parameters: table, hasSeperator: boolean)` : Modifies rtparam with the given key.
+- `parse(str: string)` : Parses a string and updates the parameter list accordingly.
+- `size() -> number` : Returns the number of rtparams in the RTVAR.
+
+#### Example
+```lua
+var = RTVAR.new()
+
+var:append("action", "dialog_return", false)
+var:append("dialog_name", "nuron", false)
+var:append("x", 36, true)
+
+print(var:dump())
+```
+
+## Embed
+The Embed class represents an embed object that can be used to display rich content in a Discord message. It has the following properties and methods:
+
+#### Properties
+- `use` : Boolean value indicating whether the embed should be used or not.
+- `color` : Integer value representing the color of the embed.
+- `title` : String value representing the title of the embed.
+- `type` : String value representing the type of the embed.
+- `description` : String value representing the description of the embed.
+- `url` : String value representing the URL associated with the embed.
+- `thumbnail` : String value representing the URL of the thumbnail image
+- `image` : The image url of the embed.
+- `footer` : Object representing the footer of the embed. It has the following properties:
+  - `text` : String value representing the text of the footer.
+  - `icon_url` : String value representing the URL of the icon associated with the footer.
+- `author` : Object representing the author of the embed. It has the following properties:
+  - `name` : String value representing the name of the author.
+  - `url` : String value representing the URL associated with the author.
+  - `icon_url` : String value representing the URL of the icon associated with the author.
+## Methods
+- `addField(name: string, value: string, inline: boolean)` : Adds a new field to the embed. It takes three arguments:
+  - `name` : String value representing the name of the field.
+  - `value` : String value representing the value of the field.
+  - `is_inline` : Boolean value indicating whether the field should be displayed inline or not.
+
+## Webhook class
+A discord webhook class where you can send webhooks.
+
+#### Properties
+- `url` : string : string variable representing the webhook url.
+- `content` : string : string variable representing the content of the message to be sent.
+- `username` : string : string variable representing the username of the webhook.
+- `avatar_url` : string : string variable representing the avatar url of the webhook.
+- `embed1` : variable representing the first embed of the webhook message.
+- `embed2` : variable representing the second embed of the webhook message.
+
+#### Methods
+- `makeContent() -> string` : Function that returns the combined content of the message and its embeds. (Json format)
+- `send()` : Function that sends the webhook message.
+- `edit(message_id: number)`  : Function that edits the webhook message with message_id.
+
+#### Example
+```lua
+webhook = Webhook.new(url/message_url)
+
+webhook.embed1.use = true
+webhook.embed1.title = "Example Webhook"
+webhook.embed1.description = "This is a embed description!"
+
+webhook:send()
+```
+
+## HttpResult
+HttpResult is a container where it stores http response datas.
+
+#### Properties
+- `body` : The body of the HTTP response as a string.
+- `error` : An integer error code in case of a network error. If there was no error, this property returns 0.
+- `status` : The HTTP status code as an integer.
+
+#### Methods
+- `getError()` : A function that returns a string error message in case of a network error.
+
+## HttpClient
+HttpClient represents a class that uses curl library to send http/s requests.
+
+#### Properties
+- `content` : A string that represents the HTTP request body.
+- `method` : A string that represents the HTTP method.
+- `headers` : A Lua table that represents the HTTP request headers. (Ex: headers["User-Agent"] = "Lucifer")
+- `url` : A string that represents the target URL.
+
+#### Methods
+- `setMethod(method: Method)` : A function that sets the HTTP method.
+- `setProxy(type: Proxy, proxydata: string)` : A function that sets proxy.
+- `removeProxy()` : A function that removes proxy.
+- `request() -> httpresult` : A function that sends the HTTP request and returns an HttpResult object.
+
+#### Example
+```lua
+client = HttpClient.new()
+
+client.url = "https://www.google.com"
+client:setProxy(Proxy.socks5, "127.0.0.1:2580")
+
+print("Response: "..client:request().body)
+```
+structs.md
+30 KB
+
+# Lucifer Lua API v2.86
+
+This guide documents the Lua interface available to Lucifer scripts in version 2.86. It is written for script authors: examples use Lua names and describe observable behavior rather than native implementation details.
+
+> Documentation boundary: this reference intentionally omits source symbols, memory layout, backing containers, private helpers, and packet constants. Use the methods documented here instead of depending on raw state.
+
+## Getting started
+
+Most bot-local scripts begin by getting their current bot:
+
+```lua
+local bot = getBot()
+
+if bot == nil then
+    print("This script needs a bot context.")
+    return
+end
+
+print("Running as " .. bot.name)
+```
+
+Lua method calls use a colon:
+
+```lua
+bot:say("Hello!")
+bot:warp("START")
+```
+
+Use a dot for properties and enum members:
+
+```lua
+bot.auto_reconnect = true
+
+if bot.status == BotStatus.online then
+    print("Connected")
+end
+```
+
+### Values and collections
+
+- Lua arrays are one-based.
+- A lookup that finds nothing normally returns `nil`.
+- Read-only values are marked **R**. Writable values are marked **R/W**.
+- Positions named `x` and `y` use tile coordinates unless the entry explicitly says pixels.
+- Time values are seconds unless the entry explicitly says milliseconds.
+- Methods returning `nil` perform an action without reporting server acceptance.
+
+### Safe starter script
+
+```lua
+local bot = getBot()
+
+if bot == nil or not bot:isInWorld() then
+    return
+end
+
+local world = bot:getWorld()
+local inventory = bot:getInventory()
+
+print("World: " .. world.name)
+print("Position: " .. bot.x .. ", " .. bot.y)
+print("Inventory slots used: " .. inventory.itemcount)
+
+local dirt = inventory:getItem(2)
+if dirt ~= nil then
+    print("Dirt: " .. dirt.count)
+end
+```
+
+## Script lifecycle
+
+### `sleep(milliseconds)`
+
+Pauses the current script. The pause remains responsive to a stop request.
+
+```lua
+sleep(500)
+```
+
+### `runThread(function, ...)`
+
+Runs a Lua function in a separate script thread and forwards any extra arguments.
+
+```lua
+runThread(function(message)
+    sleep(250)
+    print(message)
+end, "Thread finished")
+```
+
+Threads have their own Lua state. Pass simple values or public API objects deliberately, and avoid unsynchronized writes to the same file or bot setting.
+
+### `on_stop(error_message)`
+
+Define this optional global callback to run when the script ends. `error_message` is empty after a normal finish and contains the script error after a failure.
+
+```lua
+function on_stop(error_message)
+    if error_message ~= "" then
+        print("Stopped: " .. error_message)
+    end
+end
+```
+
+### `script_id`
+
+The current script identifier, when the host launched the script with one.
+
+## Global functions
+
+### Files and text
+
+| Function | Returns | Description |
+| --- | --- | --- |
+| `read(path)` | `string` | Reads the entire file, or an empty string when it cannot be opened. |
+| `write(path, content)` | `boolean` | Replaces a file with `content`. |
+| `append(path, content)` | `boolean` | Appends `content` to a file. |
+| `removeColor(text)` | `string` | Removes Growtopia color formatting. |
+| `clearConsole()` | `nil` | Clears the application console. |
+
+Treat file paths as local application paths. Never write account tokens, passwords, recovery details, or webhook URLs to shared files.
+
+### Account and bot lookup
+
+| Function | Returns | Description |
+| --- | --- | --- |
+| `getUsername()` | `string` | Current Lucifer account username. |
+| `getBanRate()` | `number` | Latest reported ban-rate value. |
+| `getBot()` | `Lucifer` or `nil` | Current bot in a bot-local script. |
+| `getBot(name)` | `Lucifer` or `nil` | Finds a bot by name. |
+| `getBot(index)` | `Lucifer` or `nil` | Finds a bot by one-based index. |
+| `getBots()` | `Lucifer[]` | Returns all bots as a one-based Lua table. |
+| `removeBot()` | `nil` | Removes the current bot. |
+| `removeBot(name)` | `nil` | Removes the named bot. |
+
+### Adding bots
+
+Common forms:
+
+```lua
+local bot = addBot("growid", "password")
+local token_bot = addTokenBot("login-token")
+local proxied_bot = addTokenBot("login-token", "127.0.0.1:1080:user:pass")
+```
+
+Available calls:
+
+- `addBot(name, password)`
+- `addBot(name, mac, rid)`
+- `addBot(name, password, mac, rid)`
+- `addBot(name, password, mac, rid, platform)`
+- `addUbiBot(email, password, otp_secret)`
+- `addSteamBot(ubisoft_email, ubisoft_password, steam_login)`
+- `addSteamBot(ubisoft_email, ubisoft_password, otp_secret, steam_login)`
+- `addTokenBot(token[, proxy])`
+
+For advanced account types, `addBot(options)` accepts a table. Only provide fields required by that account:
+
+```lua
+local bot = addBot({
+    name = "growid",
+    display = "Friendly label",
+    password = "password",
+    platform = Platform.windows,
+    proxy = "127.0.0.1:1080:user:pass",
+    connect = true
+})
+```
+
+Supported option names are `name`, `display`, `password`, `mail`, `mac`, `rid`, `vid`, `aid`, `secret`, `recovery`, `appleData`, `proxy`, `steamlogin`, `gmaillogin`, `hash`, `platform`, and `connect`.
+
+### Item catalog
+
+| Function | Returns | Description |
+| --- | --- | --- |
+| `getInfo(item_id)` | `ItemDescription` or `nil` | Finds an item by numeric ID. |
+| `getInfo(name)` | `ItemDescription` or `nil` | Finds an item by name. |
+| `getInfos()` | item collection | Returns the available item catalog. |
+
+```lua
+local item = getInfo("Dirt")
+if item ~= nil then
+    print(item.id .. ": " .. item.name)
+end
+```
+
+### Packs and trash list
+
+| Function | Returns | Description |
+| --- | --- | --- |
+| `addPack(data)` | `nil` | Adds a pack definition. |
+| `removePack(data)` | `nil` | Removes a pack definition. |
+| `getTrashList()` | `integer[]` | Returns the global item IDs marked for trashing. |
+| `setTrashList(ids)` | `nil` | Replaces the global trash list. |
+
+## The `Lucifer` bot object
+
+### Identity and live status
+
+| Property | Access | Description |
+| --- | --- | --- |
+| `name` | R | Current bot name. |
+| `index` | R | One-based bot index, or `-1` when unavailable. |
+| `status` | R | A `BotStatus` value. |
+| `custom_status` | R/W | User-defined status text. |
+| `google_status` | R | A `GoogleStatus` value. |
+| `malady` | R | Current malady identifier. |
+| `home_world` | R | Detected home world. |
+| `selected` | R/W | Whether the bot is selected in the UI. |
+| `x`, `y` | R | Current tile coordinates; both are `0` when local-player state is unavailable. |
+| `history` | R | Recent generic-message history. |
+| `warp_count` | R/W | Warp counter. |
+| `gem_count` | R | Current gems. |
+| `obtained_gem_count` | R | Gems obtained during the tracked run. |
+| `obtained_pack_count` | R | Packs obtained during the tracked run. |
+| `pearl_count` | R | Current pearl count. |
+| `level` | R | Current level. |
+| `is_account_secured` | R | Whether account protection was detected. |
+| `maximum_ping` | R/W | Configured maximum acceptable ping. |
+
+### Connection and account methods
+
+| Method | Returns | Description |
+| --- | --- | --- |
+| `bot:connect()` | `nil` | Starts a connection. |
+| `bot:disconnect()` | `nil` | Disconnects the bot. |
+| `bot:hasToken()` | `boolean` | Reports whether login token data is available. |
+| `bot:updateToken(token)` | `nil` | Replaces the login token. |
+| `bot:updateProxy(proxy)` | `boolean` | Changes the bot proxy. |
+| `bot:getProxy()` | proxy snapshot | Returns the bot's current proxy details. |
+| `bot:getPing()` | `integer` | Current ping in milliseconds. |
+| `bot:getSignal()` | `Signal` | Returns the latest Geiger signal with read-only `x`, `y`, and `type`. |
+| `bot:getCaptcha()` | `string` | Current captcha URL, or an empty string. |
+| `bot:getPlaytime()` | `integer` | Account playtime value. |
+| `bot:getAge()` | `integer` | Account age value. |
+| `bot:getActiveTime()` | `string` | Formatted active-time value. |
+| `bot:setMac(mac)` | `nil` | Updates the configured MAC value. |
+| `bot:setRid(rid)` | `nil` | Updates the configured RID value. |
+| `bot:setPlatform(platform)` | `nil` | Updates the login platform. |
+
+Account update calls are also available:
+
+- `bot:updateBot([name[, password[, mac[, rid[, secret[, hash[, platform]]]]]]])`
+- `bot:updateCustomBot(options)`
+- `bot:updateTokenBot(token[, proxy])`
+- `bot:updateUbiBot(email, password[, secret[, is_steam]])`
+
+Changing identity or device values while connected can invalidate the current session. Update them before connecting unless you specifically need a reconnect.
+
+### World and chat actions
+
+| Method | Returns | Description |
+| --- | --- | --- |
+| `bot:warp(world)` | `nil` | Warps to a world. |
+| `bot:warp(world, door)` | `nil` | Warps to a world and door ID. |
+| `bot:leaveWorld()` | `nil` | Leaves the current world. |
+| `bot:say(text)` | `nil` | Sends chat or a supported slash command. |
+| `bot:respawn()` | `nil` | Requests a respawn. |
+| `bot:enter()` | `nil` | Activates the door on the bot's current tile. |
+| `bot:enter(password)` | `nil` | Remembers a door password and enters. |
+| `bot:enter(button_id)` | `nil` | Remembers a door button and enters. |
+| `bot:active(x, y)` | `nil` | Activates the tile at `(x, y)`. |
+
+```lua
+if not bot:isInWorld("START") then
+    bot:warp("START")
+end
+```
+
+### Inventory actions
+
+| Method | Returns | Description |
+| --- | --- | --- |
+| `bot:use(item_id)` | `nil` | Uses an inventory item. |
+| `bot:activate(item_id)` | `nil` | Alias of `wear`. |
+| `bot:wear(item_id)` | `nil` | Wears an item. |
+| `bot:unwear(item_id)` | `nil` | Removes a worn item. |
+| `bot:drop(item_id, count)` | `nil` | Drops an amount through the normal flow. |
+| `bot:trash(item_id, count)` | `nil` | Trashes an amount through the normal flow. |
+| `bot:fastDrop(item_id, count)` | `boolean` | Attempts the fast drop flow. |
+| `bot:fastTrash(item_id, count)` | `boolean` | Attempts the fast trash flow. |
+| `bot:buy(store_id)` | `nil` | Buys using a store identifier. |
+| `bot:buy(item_id, count, max_price)` | `boolean` | Attempts an item purchase with a price ceiling. |
+| `bot:retrieve(x, y)` | `boolean` | Retrieves the default amount from supported storage. |
+| `bot:retrieve(x, y, count)` | `boolean` | Retrieves up to `count` items. |
+
+Boolean results report whether the local request could be started, not whether the game server ultimately accepted it.
+
+### Tile and player actions
+
+| Method | Returns | Description |
+| --- | --- | --- |
+| `bot:place(x, y, item_id)` | `nil` | Places an item at a tile. |
+| `bot:hit(x, y)` | `nil` | Punches a tile. |
+| `bot:hit(npc_id)` | `nil` | Hits an NPC. |
+| `bot:wrench(x, y)` | `nil` | Wrenches a tile. |
+| `bot:wrenchPlayer(net_id)` | `nil` | Wrenches a player. |
+| `bot:setDirection(left)` | `nil` | Faces left when true, right when false. |
+| `bot:setBubble(bubble)` | `nil` | Changes the chat bubble state. |
+| `bot:setSkin(skin_id)` | `nil` | Changes the skin value. |
+| `bot:setCountry(country)` | `nil` | Changes the two-letter country value. |
+
+### Movement and collection
+
+| Method | Returns | Description |
+| --- | --- | --- |
+| `bot:moveTo(dx, dy)` | `nil` | Moves by a tile offset from the current position. |
+| `bot:moveTile(x, y)` | `nil` | Moves directly to tile coordinates. |
+| `bot:moveLeft([count])` | `nil` | Moves left by one tile or `count` tiles. |
+| `bot:moveRight([count])` | `nil` | Moves right by one tile or `count` tiles. |
+| `bot:moveUp([count])` | `nil` | Moves up by one tile or `count` tiles. |
+| `bot:moveDown([count])` | `nil` | Moves down by one tile or `count` tiles. |
+| `bot:getPath(x, y)` | `PathNode[]` | Calculates a path to a tile. |
+| `bot:findPath(x, y)` | `boolean` | Follows a path to a tile and waits for completion. |
+| `bot:collectObject(object_id, range)` | `boolean` | Attempts to collect one world object. |
+| `bot:collectByID(item_id)` | `boolean` | Finds and attempts one object with the item ID. |
+| `bot:collect(range[, interval_ms])` | `nil` | Attempts nearby objects, waiting between requests. |
+| `bot:findOutput([item_id])` | `boolean` | Finds or approaches a configured output location. |
+
+`findPath` is blocking. Prefer short paths and ensure the destination is valid before calling it.
+
+### State checks
+
+| Method | Returns | Description |
+| --- | --- | --- |
+| `bot:isInWorld()` | `boolean` | Whether full world state is available. |
+| `bot:isInWorld(name)` | `boolean` | Whether the bot is in the named world. |
+| `bot:isInTutorial()` | `boolean` | Whether the current world is a tutorial world. |
+| `bot:isInTile(x, y)` | `boolean` | Whether the bot is on a tile. |
+| `bot:isInArea(min_x, min_y, max_x, max_y)` | `boolean` | Whether the bot is inside a tile rectangle. |
+| `bot:isSupporter()` | `boolean` | Whether supporter status was detected. |
+| `bot:isResting()` | `boolean` | Whether the bot is resting. |
+| `bot:isRunningScript()` | `boolean` | Whether the bot executor is running a script. |
+
+### State access
+
+| Method | Returns |
+| --- | --- |
+| `bot:getWorld()` | `World` |
+| `bot:getInventory()` | `Inventory` |
+| `bot:getConsole()` | `Console` |
+| `bot:getLog()` | `Log` |
+| `bot:getLogin()` | `Credentials` |
+
+Bot-local scripts also have the shortcuts `getWorld()`, `getInventory()`, `getConsole()`, `getLog()`, `getLogin()`, `getDialog()`, `getTile(x, y)`, `getTilesSafe()`, `getObject(oid)`, `getObjects()`, `getPlayer(name_or_net_id)`, `getPlayers()`, `getNPC(id)`, `getNPCs()`, `getLocal()`, and `hasAccess(x, y)`.
+
+### Timing
+
+```lua
+local old = bot:getInterval(Action.move)
+bot:setInterval(Action.move, 0.25)
+```
+
+`bot:getInterval(action)` returns the effective interval in seconds. `bot:setInterval(action, seconds)` changes its base interval. Available actions are `Action.move`, `collect`, `hit`, `place`, `harvest`, `plant`, `warp`, `drop`, and `trash`.
+
+### Roles and nested scripts
+
+| Method | Returns | Description |
+| --- | --- | --- |
+| `bot:startRole(role)` | `boolean` | Starts a role flow. |
+| `bot:stopRole()` | `nil` | Stops the current role flow. |
+| `bot:finishRole()` | `boolean` | Attempts to finish the current role. |
+| `bot:getRoleMission()` | `string` | Requests the current role mission. |
+| `bot:runScript(source)` | `nil` | Runs Lua source on this bot. |
+| `bot:stopScript()` | `nil` | Stops this bot's running script. |
+| `bot:setPack(name)` | `nil` | Selects a configured pack by name. |
+| `bot:getMaladyDuration()` | duration value | Returns the remaining tracked malady duration. |
+
+## Bot behavior settings
+
+These `Lucifer` properties are writable. Change settings before enabling the related feature.
+
+| Group | Properties |
+| --- | --- |
+| Reconnect | `auto_reconnect`, `reconnect_multiplier`, `random_reconnect`, `reconnect_interval`, `min_reconnect`, `max_reconnect`, `bypass_logon` |
+| Safety | `auto_leave_on_admin`, `auto_leave_on_mod`, `auto_ban`, `auto_stop`, `maximum_ping` |
+| World behavior | `leave_world_before_warp`, `legit_mode`, `auto_accept`, `auto_follow`, `anti_toxic`, `anti_fire`, `hide_gems` |
+| Inventory | `auto_trash`, `auto_wear`, `auto_clothes`, `auto_birth`, `auto_consume`, `auto_expand_inventory`, `wear_id`, `wear_storage`, `birth_storage`, `gem_limit`, `consume_id`, `consume_interval` |
+| Resting | `auto_rest_mode`, `auto_disconnect`, `disconnect_on_rest`, `rest_time`, `rest_interval` |
+| Collection | `auto_collect`, `collect_path_check`, `collect_all`, `object_collect_delay`, `collect_range`, `ignore_gems`, `ignore_essences` |
+| Movement | `move_range`, `move_x`, `move_y`, `dynamic_delay` |
+| Special | `auto_tutorial`, `auto_alien_scanner`, `auto_mooncake_magnificence` |
+
+`auto_disconnect` and `disconnect_on_rest` control the same setting in v2.86.
+
+## Reading world state safely
+
+Use query methods instead of retaining raw collections between updates. World state can be replaced after a warp, reconnect, or map update.
+
+### `World`
+
+Useful read-only properties:
+
+| Property | Description |
+| --- | --- |
+| `name` | Current world name. |
+| `x`, `y` | World width and height in tiles. |
+| `tile_count` | Number of tiles. |
+| `weather` | Current weather identifier. |
+| `public` | Whether the world is public. |
+| `version` | Current map version. |
+| `growscan` | Aggregate item counts. |
+| `battle` | Current battle state. |
+
+Query methods:
+
+| Method | Returns | Description |
+| --- | --- | --- |
+| `world:getTile(x, y)` | `Tile` or `nil` | Gets one tile. |
+| `world:getTilesSafe()` | `Tile[]` | Gets a snapshot suitable for iteration. |
+| `world:getObject(oid)` | `NetObject` or `nil` | Gets one dropped object. |
+| `world:getObjects()` | `NetObject[]` | Gets a dropped-object snapshot. |
+| `world:getPlayer(name_or_net_id)` | `Player` or `nil` | Finds a player. |
+| `world:getPlayers()` | `Player[]` | Gets a player snapshot. |
+| `world:getLocal()` | `Player` or `nil` | Gets the local player. |
+| `world:getNPC(id)` | `NPC` or `nil` | Gets an NPC. |
+| `world:getNPCs()` | `NPC[]` | Gets an NPC snapshot. |
+| `world:getTileParent(x, y)` | `Tile` or `nil` | Gets the effective parent tile. |
+| `world:hasAccess(x, y)` | access value | Checks access at a tile. |
+| `world:isValidTile(x, y)` | `boolean` | Checks tile bounds. |
+| `world:isValidPosition(x, y)` | `boolean` | Checks pixel-position bounds. |
+| `world:getAdventures()` | `Adventure[]` | Gets adventure markers. |
+| `world:getAdventure(id)` | `Adventure` or `nil` | Finds an adventure marker. |
+| `world:hasAdventure(id)` | `boolean` | Checks for an adventure marker. |
+
+```lua
+local world = bot:getWorld()
+
+for _, tile in ipairs(world:getTilesSafe()) do
+    if tile:canHarvest() then
+        print("Ready at " .. tile.x .. ", " .. tile.y)
+    end
+end
+```
+
+### `Tile`
+
+| Member | Access | Description |
+| --- | --- | --- |
+| `foreground`, `fg` | R | Foreground item ID. |
+| `background`, `bg` | R | Background item ID. |
+| `x`, `y` | R | Tile coordinates. |
+| `parent` | R | Parent tile index or identifier. |
+| `flags` | R | Tile flags. |
+| `tile:hasExtra()` | method | Whether extra metadata is available. |
+| `tile:getExtra()` | method | Returns optional extra metadata. |
+| `tile:canHarvest()` | method | Whether the tile is ready to harvest. |
+| `tile:hasFlag(flag)` | method | Checks a tile flag. |
+
+Extra metadata differs by tile type. Common public values include `type`, `label`, `owner`, `locked`, `growth`, `item1`, `item2`, `item_count`, `item_price`, `fruit_count`, and `flags`. Always call `hasExtra()` first and treat absent or unrelated values as unavailable.
+
+### `Player`
+
+All player values are read-only.
+
+| Properties | Description |
+| --- | --- |
+| `name`, `altName`, `country` | Display identity. |
+| `netid`, `userid` | Session and user identifiers. |
+| `posx`, `posy` | Pixel position. |
+| `vecx`, `vecy` | Movement values. |
+| `bubble` | Bubble state. |
+| `isModerator`, `isSuperModerator` | Moderator indicators. |
+| `isLocalPlayer`, `isFriendWithOwner` | Relationship indicators. |
+| `skincolor`, `roleskin`, `roleicon`, `clothes` | Appearance. |
+| `team`, `battle_item`, `battle_score` | Battle state. |
+
+Clothing fields are `hat`, `shirt`, `pants`, `shoes`, `face`, `hand`, `wings`, `mask`, `neck`, and `ances`.
+
+### `NetObject`, `NPC`, and `PathNode`
+
+Dropped objects expose read-only `id`, `x`, `y`, `count`, `flags`, and `oid`. Object positions are pixels.
+
+NPCs expose read-only `type`, `id`, `x`, `y`, `destx`, `desty`, `var`, and `unk`. Path nodes expose read-only tile coordinates `x` and `y`.
+
+### `Inventory`
+
+| Member | Returns | Description |
+| --- | --- | --- |
+| `inventory.itemcount` | `integer` | Number of occupied inventory entries. |
+| `inventory.emptyslots` | `integer` | Available slots. |
+| `inventory.slotcount` | `integer` | Total slot capacity. |
+| `inventory.version` | `integer` | Inventory version. |
+| `inventory:getItem(id_or_name)` | `InventoryItem` or `nil` | Gets one item. |
+| `inventory:getItems()` | `InventoryItem[]` | Gets an item snapshot. |
+| `inventory:findItem(id_or_name)` | `integer` | Gets the current count. |
+| `inventory:getItemCount(id_or_name)` | `integer` | Alias of `findItem`. |
+| `inventory:canCollect(item_id)` | `boolean` | Whether the item can fit. |
+| `inventory:price()` | price value | Returns the next inventory-upgrade price. |
+
+An `InventoryItem` has read-only `id`, `count`, and `isActive` values.
+
+### `ItemDescription`
+
+Item descriptions expose read-only `id`, `name`, `desc`, `flags`, `level`, `rarity`, `growth`, `strength`, `action_type`, `collision_type`, `clothing_type`, `type`, `collision`, `clothing`, `texture`, and `visual`.
+
+## Events
+
+Register callbacks first, then listen for a bounded number of seconds:
+
+```lua
+addEvent(Event.game_message, function(message)
+    print(removeColor(message))
+end)
+
+addEvent(Event.variantlist, function(values, net_id)
+    print("Variant event from " .. net_id)
+end)
+
+listenEvents(30)
+removeEvents()
+```
+
+| Function | Description |
+| --- | --- |
+| `addEvent(event, callback)` | Adds a callback for an event. |
+| `removeEvent(event)` | Removes all callbacks for one event. |
+| `removeEvents()` | Removes every callback. |
+| `listenEvents(timeout_seconds)` | Dispatches queued events until timeout or cancellation. |
+| `unlistenEvents()` | Requests the active listener to stop. |
+
+Event callback arguments:
+
+| Event | Callback |
+| --- | --- |
+| `Event.variantlist` | `function(values, net_id)` |
+| `Event.update_packet` | `function(packet)` |
+| `Event.track_packet` | `function(text)` |
+| `Event.generic_text` | `function(text)` |
+| `Event.game_message` | `function(text)` |
+| `Event.mod_enter` | `function(text)` |
+| `Event.got_punched` | `function(text)` |
+| `Event.render` | `function()` |
+
+Do little work inside callbacks. Queue or copy the values you need and return quickly.
+
+## Console, log, and dialog helpers
+
+### Console and log
+
+| Object | Members |
+| --- | --- |
+| `Console` | `enabled`, `contents`, `append(text)`, `clear()` |
+| `Log` | `content`, `append(text)`, `clear()` |
+
+### Dialog
+
+| Method | Description |
+| --- | --- |
+| `dialog:get()` | Returns the current parsed dialog. |
+| `dialog:clear()` | Clears current dialog state. |
+| `dialog:getCustom()` | Returns the latest custom-dialog result. |
+| `dialog:setCustom(builder)` | Displays a custom dialog. |
+
+`dialog.active` controls whether normal dialogs are displayed.
+
+A `DialogBuilder` provides `clear()`, `setTitle(text)`, `addLabel(text)`, `addButton(name, label)`, `addCheckbox(name, label[, default])`, and `addInput(name, label[, default])`.
+
+## Automation modules
+
+Automation objects are available as writable properties on each bot. Configure the module first, then set its `enabled` property or call its start method. Not every module is valid in every world or account state.
+
+| Bot property | Type | Main public settings |
+| --- | --- | --- |
+| `auto_tutorial` | `AutoTutorial` | `enabled`, `set_high_level`, `set_random_skin`, `set_random_profile`, `detect_tutorial`, `clear_inventory`; read-only `world`, `message` |
+| `auto_farm` | `AutoFarm` | `enabled`, `auto_place`, `auto_break`, `auto_retrieve`, `auto_remote`, `mag_x`, `mag_y`, `id`, `block_storage`, `seed_storage`, `setActive(state)` |
+| `auto_spam` | `AutoSpam` | `enabled`, `show_emote`, `use_color`, `random_interval`, `auto_interval`, `randomizer`, `interval`, `messages` |
+| `auto_message` | `AutoMessage` | `enabled`, `type`, `ignore_admin`, `auto_sb`, `loop_mode`, `interval`, `victim_uid`, `anti_exit`, `message`, `load`, `save`, `clear`, `start` |
+| `auto_geiger` | `AutoGeiger` | `enabled`, `use_chocolate`, `insta_path`, `addWorld`, `removeWorld`, `addStorage`, `removeStorage`, `spread` |
+| `auto_fish` | `AutoFish` | `enabled`, `auto_trash`, `auto_drill`, `auto_trawler`, `auto_gemonade`, `setRod`, `setBait`, `getRod`, `getBait`, `x`, `y`, `world`, `item_storage`, `reward_storage` |
+| `auto_cook` | `AutoCook` | `is_cooking`, `x`, `y`, `interval`, `world`, `ingredient_storage`, `food_storage`, `setActive`, `setFood`, `setTemperature`, `start`, `stop` |
+| `auto_crime` | `AutoCrime` | `enabled`, `auto_wave`, `auto_bbq`, `world`, `tool_storage`, `reward_storage`, `setActive` |
+| `auto_carnival` | `AutoCarnival` | `enabled`, `auto_trash`, `auto_buy`, `selected_game`, `reward_storage`, `ticket_storage` |
+| `auto_parkour` | `AutoParkour` | `enabled`, `type`, `limit`, `block`, `setWebhook`, `setTicket`, `setReward` |
+| `auto_synth` | `AutoSynth` | `enabled`, `x`, `y`, `world`, `tool_storage`, `reward_storage` |
+| `auto_npc` | `AutoNPC` | `enabled`, `auto_spawner`, `auto_sucker`, `collect_mode`, `spawner_limit`, `sucker_limit`, `main_world`, `item_storage`, `reward_storage` |
+| `auto_transfer` | `AutoTransfer` | `enabled`, `drop_vertical`, `restock_vend`, `auto_vend`, `itemid`, `set_price`, `buy_price`, `per_item`, `input`, `output` |
+| `auto_harvest` | `AutoHarvest` | `enabled`, `recycle`, `useFuel`, `storage`, `loop`, `add(world)`, `remove(world)` |
+| `auto_plant` | `AutoPlant` | `enabled`, `storage`, `loop`, `add(world)`, `remove(world)` |
+| `auto_event` | `AutoEvent` | `enabled`, `storage` |
+| `auto_skin` | `AutoSkin` | `enabled`, `interval` |
+| `auto_blarney` | `AutoBlarney` | `enabled`, `storage`; read-only `index`, `state`, `console` |
+| `auto_set_pos` | `AutoSetPosition` | `enabled`, `warp_delay`, `move_delay`, `world` |
+| `auto_clear` | `AutoClear` | `enabled`, `name_length`, `keep_jammer`, `keep_lock`, `no_number`, `output_path`, `item_storage`, `seed_storage` |
+| `auto_build` | `AutoBuild` | `enabled`, build options, storage names, output path, and selected item IDs; read-only `console` |
+| `auto_malady` | `AutoMalady` | `enabled`, treatment options, `disconnect_interval`, `storage`, `vial`, `addHospital`, `removeHospital` |
+| `auto_zombie` | `AutoZombie` | `enabled`, `infect_mode`, `punch_mode`, `punch_door`, `cell_limit`, `zombie_world`, `gvirus_storage`, `reward_storage` |
+| `auto_fossil` | `AutoFossil` | `enabled`, `loop_mode`, `use_rock`, `interval`, `tool_storage`, `fossil_storage` |
+| `auto_combine` | `AutoCombine` | `enabled`, `output_id`, `world`, `ingredient_storage`, `output_world`, `setIngredient(index, id, count)` |
+| `rotation` | `Rotation` | `enabled`, `status`, rest/fill/fossil/exchange options, storage suppression, break position, item IDs, and custom tiles |
+
+Example:
+
+```lua
+local bot = getBot()
+local fisher = bot.auto_fish
+
+fisher.world = "FISHINGWORLD"
+fisher.item_storage = "BAITSTORAGE"
+fisher.reward_storage = "REWARDSTORAGE"
+fisher:setRod(1234)
+fisher:setBait(5678)
+fisher.enabled = true
+```
+
+## Proxy management
+
+```lua
+local manager = getProxyManager()
+manager:addProxy("127.0.0.1", 1080, "user", "pass")
+manager:setLimit(3)
+```
+
+Global helpers are `getProxyManager()`, `getProxies()`, `addProxy(proxy_data)`, `addDataProxy(proxy_data, is_http)`, and `removeProxy(ip, port, username, password)`.
+
+`ProxyManager` provides `proxies`, `addProxy`, `removeProxy`, `setLimit`, `spread`, `localize`, and settings named `auto_switch`, `auto_check`, `switch_on_shadow`, `switch_on_ban`, `switch_on_block`, `cooldown`, `bypass_cooldown`, `timeout`, and read-only `main_ip_reference`.
+
+A proxy snapshot exposes read-only `ip`, `port`, `username`, and `password`. Managed proxies additionally expose `cooldown`, `country`, `reference`, `selected`, `setCooldown()`, `removeCooldown()`, and `hasCooldown()`.
+
+Avoid printing proxy credentials or returning them from HTTP handlers.
+
+## Switch and world managers
+
+`getSwitchManager()` returns the global switch manager. Its public settings include automatic switch triggers, rest behavior, loop mode, limits, storage, and `drop_on_switch`. Its methods are `addBot`, `removeBot([name])`, `switch()`, and `exists(name)`.
+
+`getWorldManager()` returns the rotation world manager. It supports:
+
+- `addFarm(name)` and `removeFarm(name)`
+- `addStorage(...)` and `removeStorage(name, storage_type)`
+- `selectAll()` and `unselectAll()`
+- `selectFarm(name)` and `unselectFarm(name)`
+- `selectStorage(...)` and `unselectStorage(...)`
+- `getRandomStorage(...)`
+
+Use `StorageType.pack` or `StorageType.seed` when a storage type is required.
+
+## HTTP client and webhook
+
+### HTTP client
+
+```lua
+local client = HttpClient.new()
+client.url = "https://example.invalid/status"
+client:setMethod(Method.get)
+client.timeout = 10
+
+local result = client:request()
+if result.error == 0 then
+    print("HTTP " .. result.status)
+end
+```
+
+`HttpClient` has writable `content`, `method`, `headers`, `url`, and `timeout`, plus `setMethod(method)`, `setProxy(type, ...)`, `removeProxy()`, and `request()`. The result has read-only `body`, `error`, `status`, and `getError()`.
+
+Available methods are `Method.get`, `post`, `put`, `patch`, `delete`, and `head`. Proxy kinds are `Proxy.none`, `http`, `https`, and `socks5`.
+
+### Webhook
+
+```lua
+local hook = Webhook.new("https://example.invalid/webhook")
+hook.username = "Lucifer"
+hook.content = "Script completed"
+hook:send()
+```
+
+A webhook supports `url`, `message_id`, `content`, `username`, `avatar_url`, `embed1`, `embed2`, `makeContent()`, `send()`, and `edit()`.
+
+Embeds support `use`, `color`, `title`, `type`, `description`, `url`, `thumbnail`, `timestamp`, `image`, `footer`, `author`, and `addField(name, value, inline)`. Never hard-code a real webhook URL in a script you plan to share.
+
+### HTTP server
+
+The main scripting context may expose `HttpServer`, `HttpRequest`, and `HttpResponse`. A server supports `get`, `post`, `put`, `delete`, `patch`, `setLogger`, and `listen(ip, port)`. Only one server can listen at a time.
+
+Request handlers receive `(request, response)`. Use `request:getHeader(name)` and `request:getParam(name)` for lookups. Set a response with `response.status`, `response.body`, headers, or `response:setContent(body, content_type)`.
+
+Bind only to trusted interfaces, validate all input, and never expose account or proxy data.
+
+## Advanced protocol interface
+
+Version 2.86 exposes `bot:sendPacket(type, text)` and `bot:sendRaw(packet)` for compatibility with advanced scripts. It also exposes packet and variant objects to event callbacks.
+
+These interfaces are intentionally not expanded here. Their formats are protocol-version dependent, easy to misuse, and unsuitable as stable application APIs. Prefer typed bot actions, state queries, and event callbacks. A malformed packet may disconnect the bot or invalidate state.
+
+## Enums
+
+Enum members are symbolic; do not depend on their numeric values.
+
+### `Platform`
+
+`windows`, `android`, `macos`, `ios`, `ubiconnect`, `steam`, `apple`
+
+### `Bubble`
+
+`none`, `talk`, `brb`
+
+### `Role`
+
+`farm`, `build`, `surg`, `fish`, `cook`, `startopia`
+
+### `Action`
+
+`move`, `collect`, `hit`, `place`, `harvest`, `plant`, `warp`, `drop`, `trash`
+
+### `GeigerArea`
+
+`null`, `red`, `yellow`, `green`, `rapid`, `prize`
+
+### `Event`
+
+`variantlist`, `update_packet`, `track_packet`, `generic_text`, `game_message`, `mod_enter`, `got_punched`, `render`
+
+### `BotStatus`
+
+Common states are `offline`, `online`, `getting_server_data`, `retrieving_token`, `changing_subserver`, `captcha_requested`, and `stopped`.
+
+Failure or restriction states include `wrong_password`, `account_banned`, `account_suspended`, `location_banned`, `version_update`, `advanced_account_protection`, `server_overload`, `too_many_login`, `maintenance`, `server_busy`, `guest_limit`, `ubi_disabled`, `account_restricted`, `network_restricted`, `http_block`, `bad_name_length`, `invalid_account`, `error_connecting`, `logon_fail`, `could_not_warp`, `bad_inventory`, `bad_gateway`, `server_issue`, `two_factor`, `google_logon_fail`, `steam_logon_fail`, `steam_not_linked`, `failed_captcha`, `banwave_detected`, and `sms_error`.
+
+Informational states also include `mod_entered`, `player_entered`, `high_load`, `high_ping`, `bypassing_server_data`, `linking_steam`, and `solving_captcha`.
+
+### `GoogleStatus`
+
+`idle`, `processing`, `bad_server`, `bad_connection`, `invalid_key`, `missing_server`, `missing_local_server`, `timeout`, `driver_closed`, `init_error`, `invalid_credentials`, `invalid_secret`, `account_disabled`, `captcha_required`, `phone_required`, `recovery_required`, `otp_required`, `invalid_challenge`, `couldnt_verify`, `unknown_url`, `redirect`
+
+## Troubleshooting
+
+### A lookup returns `nil`
+
+The requested bot, player, tile, object, NPC, inventory item, or catalog item does not exist in the current snapshot. Check for `nil` before reading it.
+
+### World values suddenly changed
+
+A warp, redirect, reconnect, or new map can replace world state. Query again after the transition and do not retain old state objects for long-running work.
+
+### An action returned `nil`
+
+Most action methods are fire-and-forget. `nil` is normal and does not indicate success or failure. Confirm the result through a later state update or event.
+
+### Events never run
+
+Make sure callbacks are registered before `listenEvents(timeout_seconds)`. Listening is bounded and blocking; call it again if the script needs another listening window.
+
+### A script does not stop immediately
+
+Long callbacks and blocking calls delay cooperative shutdown. Keep callbacks short and use bounded operations.
+
+## Compatibility note
+
+This document targets Lucifer Lua v2.86. Scripts should feature-check optional values when they may run on another release:
+
+```lua
+if bot.getSignal ~= nil then
+    local signal = bot:getSignal()
+    print(signal.x .. ", " .. signal.y)
+end
+```
+LUCIFER_LUA_V2_86.md
+34 KB
